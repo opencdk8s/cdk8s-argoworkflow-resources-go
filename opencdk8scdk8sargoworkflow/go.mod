@@ -1,4 +1,4 @@
-module github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflowresources
+module github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflow
 
 go 1.16
 

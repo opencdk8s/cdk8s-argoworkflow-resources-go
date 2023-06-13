@@ -8,375 +8,375 @@ import (
 
 func init() {
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Affinity",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Affinity",
 		reflect.TypeOf((*Affinity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.AggregationRule",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.AggregationRule",
 		reflect.TypeOf((*AggregationRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.AllowedCsiDriver",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.AllowedCsiDriver",
 		reflect.TypeOf((*AllowedCsiDriver)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.AllowedFlexVolume",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.AllowedFlexVolume",
 		reflect.TypeOf((*AllowedFlexVolume)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.AllowedHostPath",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.AllowedHostPath",
 		reflect.TypeOf((*AllowedHostPath)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ApiServiceSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ApiServiceSpec",
 		reflect.TypeOf((*ApiServiceSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.AuditSinkSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.AuditSinkSpec",
 		reflect.TypeOf((*AuditSinkSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.AwsElasticBlockStoreVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.AwsElasticBlockStoreVolumeSource",
 		reflect.TypeOf((*AwsElasticBlockStoreVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.AzureDiskVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.AzureDiskVolumeSource",
 		reflect.TypeOf((*AzureDiskVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.AzureFilePersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.AzureFilePersistentVolumeSource",
 		reflect.TypeOf((*AzureFilePersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.AzureFileVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.AzureFileVolumeSource",
 		reflect.TypeOf((*AzureFileVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.BoundObjectReference",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.BoundObjectReference",
 		reflect.TypeOf((*BoundObjectReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Capabilities",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Capabilities",
 		reflect.TypeOf((*Capabilities)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CephFsPersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CephFsPersistentVolumeSource",
 		reflect.TypeOf((*CephFsPersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CephFsVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CephFsVolumeSource",
 		reflect.TypeOf((*CephFsVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CertificateSigningRequestSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CertificateSigningRequestSpec",
 		reflect.TypeOf((*CertificateSigningRequestSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CinderPersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CinderPersistentVolumeSource",
 		reflect.TypeOf((*CinderPersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CinderVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CinderVolumeSource",
 		reflect.TypeOf((*CinderVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ClientIpConfig",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ClientIpConfig",
 		reflect.TypeOf((*ClientIpConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ComponentCondition",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ComponentCondition",
 		reflect.TypeOf((*ComponentCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ConfigMapEnvSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ConfigMapEnvSource",
 		reflect.TypeOf((*ConfigMapEnvSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ConfigMapKeySelector",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ConfigMapKeySelector",
 		reflect.TypeOf((*ConfigMapKeySelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ConfigMapNodeConfigSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ConfigMapNodeConfigSource",
 		reflect.TypeOf((*ConfigMapNodeConfigSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ConfigMapProjection",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ConfigMapProjection",
 		reflect.TypeOf((*ConfigMapProjection)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ConfigMapVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ConfigMapVolumeSource",
 		reflect.TypeOf((*ConfigMapVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Container",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Container",
 		reflect.TypeOf((*Container)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ContainerPort",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ContainerPort",
 		reflect.TypeOf((*ContainerPort)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CreateOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CreateOptions",
 		reflect.TypeOf((*CreateOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CronJobSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CronJobSpec",
 		reflect.TypeOf((*CronJobSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CrossVersionObjectReference",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CrossVersionObjectReference",
 		reflect.TypeOf((*CrossVersionObjectReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CsiDriverSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CsiDriverSpec",
 		reflect.TypeOf((*CsiDriverSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CsiNodeDriver",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CsiNodeDriver",
 		reflect.TypeOf((*CsiNodeDriver)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CsiNodeSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CsiNodeSpec",
 		reflect.TypeOf((*CsiNodeSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CsiPersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CsiPersistentVolumeSource",
 		reflect.TypeOf((*CsiPersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CsiVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CsiVolumeSource",
 		reflect.TypeOf((*CsiVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CustomResourceColumnDefinition",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CustomResourceColumnDefinition",
 		reflect.TypeOf((*CustomResourceColumnDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CustomResourceConversion",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CustomResourceConversion",
 		reflect.TypeOf((*CustomResourceConversion)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CustomResourceDefinitionNames",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CustomResourceDefinitionNames",
 		reflect.TypeOf((*CustomResourceDefinitionNames)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CustomResourceDefinitionSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CustomResourceDefinitionSpec",
 		reflect.TypeOf((*CustomResourceDefinitionSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CustomResourceDefinitionVersion",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CustomResourceDefinitionVersion",
 		reflect.TypeOf((*CustomResourceDefinitionVersion)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CustomResourceSubresourceScale",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CustomResourceSubresourceScale",
 		reflect.TypeOf((*CustomResourceSubresourceScale)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CustomResourceSubresources",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CustomResourceSubresources",
 		reflect.TypeOf((*CustomResourceSubresources)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.CustomResourceValidation",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.CustomResourceValidation",
 		reflect.TypeOf((*CustomResourceValidation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.DaemonSetSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.DaemonSetSpec",
 		reflect.TypeOf((*DaemonSetSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.DaemonSetUpdateStrategy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.DaemonSetUpdateStrategy",
 		reflect.TypeOf((*DaemonSetUpdateStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.DeleteOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.DeleteOptions",
 		reflect.TypeOf((*DeleteOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.DeploymentSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.DeploymentSpec",
 		reflect.TypeOf((*DeploymentSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.DeploymentStrategy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.DeploymentStrategy",
 		reflect.TypeOf((*DeploymentStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.DownwardApiProjection",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.DownwardApiProjection",
 		reflect.TypeOf((*DownwardApiProjection)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.DownwardApiVolumeFile",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.DownwardApiVolumeFile",
 		reflect.TypeOf((*DownwardApiVolumeFile)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.DownwardApiVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.DownwardApiVolumeSource",
 		reflect.TypeOf((*DownwardApiVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EmptyDirVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EmptyDirVolumeSource",
 		reflect.TypeOf((*EmptyDirVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Endpoint",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Endpoint",
 		reflect.TypeOf((*Endpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EndpointAddress",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EndpointAddress",
 		reflect.TypeOf((*EndpointAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EndpointConditions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EndpointConditions",
 		reflect.TypeOf((*EndpointConditions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EndpointPort",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EndpointPort",
 		reflect.TypeOf((*EndpointPort)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EndpointSubset",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EndpointSubset",
 		reflect.TypeOf((*EndpointSubset)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EnvFromSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EnvFromSource",
 		reflect.TypeOf((*EnvFromSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EnvVar",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EnvVar",
 		reflect.TypeOf((*EnvVar)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EnvVarSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EnvVarSource",
 		reflect.TypeOf((*EnvVarSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EphemeralContainer",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EphemeralContainer",
 		reflect.TypeOf((*EphemeralContainer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EventSeries",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EventSeries",
 		reflect.TypeOf((*EventSeries)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.EventSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.EventSource",
 		reflect.TypeOf((*EventSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ExecAction",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ExecAction",
 		reflect.TypeOf((*ExecAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ExternalDocumentation",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ExternalDocumentation",
 		reflect.TypeOf((*ExternalDocumentation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ExternalMetricSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ExternalMetricSource",
 		reflect.TypeOf((*ExternalMetricSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.FcVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.FcVolumeSource",
 		reflect.TypeOf((*FcVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.FlexPersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.FlexPersistentVolumeSource",
 		reflect.TypeOf((*FlexPersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.FlexVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.FlexVolumeSource",
 		reflect.TypeOf((*FlexVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.FlockerVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.FlockerVolumeSource",
 		reflect.TypeOf((*FlockerVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.FlowDistinguisherMethod",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.FlowDistinguisherMethod",
 		reflect.TypeOf((*FlowDistinguisherMethod)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.FlowSchemaSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.FlowSchemaSpec",
 		reflect.TypeOf((*FlowSchemaSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.FsGroupStrategyOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.FsGroupStrategyOptions",
 		reflect.TypeOf((*FsGroupStrategyOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.GcePersistentDiskVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.GcePersistentDiskVolumeSource",
 		reflect.TypeOf((*GcePersistentDiskVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.GitRepoVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.GitRepoVolumeSource",
 		reflect.TypeOf((*GitRepoVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.GlusterfsPersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.GlusterfsPersistentVolumeSource",
 		reflect.TypeOf((*GlusterfsPersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.GlusterfsVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.GlusterfsVolumeSource",
 		reflect.TypeOf((*GlusterfsVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.GroupVersionResource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.GroupVersionResource",
 		reflect.TypeOf((*GroupVersionResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Handler",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Handler",
 		reflect.TypeOf((*Handler)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.HorizontalPodAutoscalerSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.HorizontalPodAutoscalerSpec",
 		reflect.TypeOf((*HorizontalPodAutoscalerSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.HostAlias",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.HostAlias",
 		reflect.TypeOf((*HostAlias)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.HostPathVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.HostPathVolumeSource",
 		reflect.TypeOf((*HostPathVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.HostPortRange",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.HostPortRange",
 		reflect.TypeOf((*HostPortRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.HttpGetAction",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.HttpGetAction",
 		reflect.TypeOf((*HttpGetAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.HttpHeader",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.HttpHeader",
 		reflect.TypeOf((*HttpHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.HttpIngressPath",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.HttpIngressPath",
 		reflect.TypeOf((*HttpIngressPath)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.HttpIngressRuleValue",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.HttpIngressRuleValue",
 		reflect.TypeOf((*HttpIngressRuleValue)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IdRange",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IdRange",
 		reflect.TypeOf((*IdRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IngressBackend",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IngressBackend",
 		reflect.TypeOf((*IngressBackend)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IngressRule",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IngressRule",
 		reflect.TypeOf((*IngressRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IngressSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IngressSpec",
 		reflect.TypeOf((*IngressSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IngressTls",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IngressTls",
 		reflect.TypeOf((*IngressTls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IntOrString",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IntOrString",
 		reflect.TypeOf((*IntOrString)(nil)).Elem(),
 		nil, // no members
 		func() interface{} {
@@ -384,42 +384,42 @@ func init() {
 		},
 	)
 	_jsii_.RegisterEnum(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IoK8SApimachineryPkgApisMetaV1DeleteOptionsKind",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IoK8SApimachineryPkgApisMetaV1DeleteOptionsKind",
 		reflect.TypeOf((*IoK8SApimachineryPkgApisMetaV1DeleteOptionsKind)(nil)).Elem(),
 		map[string]interface{}{
 			"DELETE_OPTIONS": IoK8SApimachineryPkgApisMetaV1DeleteOptionsKind_DELETE_OPTIONS,
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IpBlock",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IpBlock",
 		reflect.TypeOf((*IpBlock)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IscsiPersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IscsiPersistentVolumeSource",
 		reflect.TypeOf((*IscsiPersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IscsiVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IscsiVolumeSource",
 		reflect.TypeOf((*IscsiVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.JobSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.JobSpec",
 		reflect.TypeOf((*JobSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.JobTemplateSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.JobTemplateSpec",
 		reflect.TypeOf((*JobTemplateSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.JsonSchemaProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.JsonSchemaProps",
 		reflect.TypeOf((*JsonSchemaProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KeyToPath",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KeyToPath",
 		reflect.TypeOf((*KeyToPath)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiService",
 		reflect.TypeOf((*KubeApiService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -441,7 +441,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceList",
 		reflect.TypeOf((*KubeApiServiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -463,11 +463,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceListProps",
 		reflect.TypeOf((*KubeApiServiceListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceListV1Beta1",
 		reflect.TypeOf((*KubeApiServiceListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -489,15 +489,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceListV1Beta1Props",
 		reflect.TypeOf((*KubeApiServiceListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceProps",
 		reflect.TypeOf((*KubeApiServiceProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceV1Beta1",
 		reflect.TypeOf((*KubeApiServiceV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -519,11 +519,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceV1Beta1Props",
 		reflect.TypeOf((*KubeApiServiceV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkListV1Alpha1",
 		reflect.TypeOf((*KubeAuditSinkListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -545,11 +545,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkListV1Alpha1Props",
 		reflect.TypeOf((*KubeAuditSinkListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkV1Alpha1",
 		reflect.TypeOf((*KubeAuditSinkV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -571,11 +571,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkV1Alpha1Props",
 		reflect.TypeOf((*KubeAuditSinkV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeBinding",
 		reflect.TypeOf((*KubeBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -597,11 +597,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeBindingProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeBindingProps",
 		reflect.TypeOf((*KubeBindingProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestListV1Beta1",
 		reflect.TypeOf((*KubeCertificateSigningRequestListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -623,11 +623,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestListV1Beta1Props",
 		reflect.TypeOf((*KubeCertificateSigningRequestListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestV1Beta1",
 		reflect.TypeOf((*KubeCertificateSigningRequestV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -649,11 +649,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestV1Beta1Props",
 		reflect.TypeOf((*KubeCertificateSigningRequestV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRole",
 		reflect.TypeOf((*KubeClusterRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -675,7 +675,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBinding",
 		reflect.TypeOf((*KubeClusterRoleBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -697,7 +697,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingList",
 		reflect.TypeOf((*KubeClusterRoleBindingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -719,11 +719,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListProps",
 		reflect.TypeOf((*KubeClusterRoleBindingListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Alpha1",
 		reflect.TypeOf((*KubeClusterRoleBindingListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -745,11 +745,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Alpha1Props",
 		reflect.TypeOf((*KubeClusterRoleBindingListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Beta1",
 		reflect.TypeOf((*KubeClusterRoleBindingListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -771,15 +771,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Beta1Props",
 		reflect.TypeOf((*KubeClusterRoleBindingListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingProps",
 		reflect.TypeOf((*KubeClusterRoleBindingProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Alpha1",
 		reflect.TypeOf((*KubeClusterRoleBindingV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -801,11 +801,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Alpha1Props",
 		reflect.TypeOf((*KubeClusterRoleBindingV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Beta1",
 		reflect.TypeOf((*KubeClusterRoleBindingV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -827,11 +827,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Beta1Props",
 		reflect.TypeOf((*KubeClusterRoleBindingV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleList",
 		reflect.TypeOf((*KubeClusterRoleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -853,11 +853,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListProps",
 		reflect.TypeOf((*KubeClusterRoleListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Alpha1",
 		reflect.TypeOf((*KubeClusterRoleListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -879,11 +879,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Alpha1Props",
 		reflect.TypeOf((*KubeClusterRoleListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Beta1",
 		reflect.TypeOf((*KubeClusterRoleListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -905,15 +905,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Beta1Props",
 		reflect.TypeOf((*KubeClusterRoleListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleProps",
 		reflect.TypeOf((*KubeClusterRoleProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Alpha1",
 		reflect.TypeOf((*KubeClusterRoleV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -935,11 +935,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Alpha1Props",
 		reflect.TypeOf((*KubeClusterRoleV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Beta1",
 		reflect.TypeOf((*KubeClusterRoleV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -961,11 +961,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Beta1Props",
 		reflect.TypeOf((*KubeClusterRoleV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatus",
 		reflect.TypeOf((*KubeComponentStatus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -987,7 +987,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatusList",
 		reflect.TypeOf((*KubeComponentStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1009,15 +1009,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatusListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatusListProps",
 		reflect.TypeOf((*KubeComponentStatusListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatusProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatusProps",
 		reflect.TypeOf((*KubeComponentStatusProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMap",
 		reflect.TypeOf((*KubeConfigMap)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1039,7 +1039,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMapList",
 		reflect.TypeOf((*KubeConfigMapList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1061,15 +1061,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMapListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMapListProps",
 		reflect.TypeOf((*KubeConfigMapListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMapProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMapProps",
 		reflect.TypeOf((*KubeConfigMapProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevision",
 		reflect.TypeOf((*KubeControllerRevision)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1091,7 +1091,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionList",
 		reflect.TypeOf((*KubeControllerRevisionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1113,11 +1113,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListProps",
 		reflect.TypeOf((*KubeControllerRevisionListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta1",
 		reflect.TypeOf((*KubeControllerRevisionListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1139,11 +1139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta1Props",
 		reflect.TypeOf((*KubeControllerRevisionListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta2",
 		reflect.TypeOf((*KubeControllerRevisionListV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1165,15 +1165,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta2Props",
 		reflect.TypeOf((*KubeControllerRevisionListV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionProps",
 		reflect.TypeOf((*KubeControllerRevisionProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta1",
 		reflect.TypeOf((*KubeControllerRevisionV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1195,11 +1195,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta1Props",
 		reflect.TypeOf((*KubeControllerRevisionV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta2",
 		reflect.TypeOf((*KubeControllerRevisionV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1221,11 +1221,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta2Props",
 		reflect.TypeOf((*KubeControllerRevisionV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV1Beta1",
 		reflect.TypeOf((*KubeCronJobListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1247,11 +1247,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV1Beta1Props",
 		reflect.TypeOf((*KubeCronJobListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV2Alpha1",
 		reflect.TypeOf((*KubeCronJobListV2Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1273,11 +1273,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV2Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV2Alpha1Props",
 		reflect.TypeOf((*KubeCronJobListV2Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV1Beta1",
 		reflect.TypeOf((*KubeCronJobV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1299,11 +1299,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV1Beta1Props",
 		reflect.TypeOf((*KubeCronJobV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV2Alpha1",
 		reflect.TypeOf((*KubeCronJobV2Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1325,11 +1325,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV2Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV2Alpha1Props",
 		reflect.TypeOf((*KubeCronJobV2Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverListV1Beta1",
 		reflect.TypeOf((*KubeCsiDriverListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1351,11 +1351,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverListV1Beta1Props",
 		reflect.TypeOf((*KubeCsiDriverListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverV1Beta1",
 		reflect.TypeOf((*KubeCsiDriverV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1377,11 +1377,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverV1Beta1Props",
 		reflect.TypeOf((*KubeCsiDriverV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNode",
 		reflect.TypeOf((*KubeCsiNode)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1403,7 +1403,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeList",
 		reflect.TypeOf((*KubeCsiNodeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1425,11 +1425,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeListProps",
 		reflect.TypeOf((*KubeCsiNodeListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeListV1Beta1",
 		reflect.TypeOf((*KubeCsiNodeListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1451,15 +1451,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeListV1Beta1Props",
 		reflect.TypeOf((*KubeCsiNodeListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeProps",
 		reflect.TypeOf((*KubeCsiNodeProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeV1Beta1",
 		reflect.TypeOf((*KubeCsiNodeV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1481,11 +1481,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeV1Beta1Props",
 		reflect.TypeOf((*KubeCsiNodeV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinition",
 		reflect.TypeOf((*KubeCustomResourceDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1507,7 +1507,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionList",
 		reflect.TypeOf((*KubeCustomResourceDefinitionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1529,11 +1529,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionListProps",
 		reflect.TypeOf((*KubeCustomResourceDefinitionListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		reflect.TypeOf((*KubeCustomResourceDefinitionListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1555,15 +1555,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionListV1Beta1Props",
 		reflect.TypeOf((*KubeCustomResourceDefinitionListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionProps",
 		reflect.TypeOf((*KubeCustomResourceDefinitionProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionV1Beta1",
 		reflect.TypeOf((*KubeCustomResourceDefinitionV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1585,11 +1585,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionV1Beta1Props",
 		reflect.TypeOf((*KubeCustomResourceDefinitionV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSet",
 		reflect.TypeOf((*KubeDaemonSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1611,7 +1611,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetList",
 		reflect.TypeOf((*KubeDaemonSetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1633,11 +1633,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListProps",
 		reflect.TypeOf((*KubeDaemonSetListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta1",
 		reflect.TypeOf((*KubeDaemonSetListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1659,11 +1659,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta1Props",
 		reflect.TypeOf((*KubeDaemonSetListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta2",
 		reflect.TypeOf((*KubeDaemonSetListV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1685,15 +1685,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta2Props",
 		reflect.TypeOf((*KubeDaemonSetListV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetProps",
 		reflect.TypeOf((*KubeDaemonSetProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta1",
 		reflect.TypeOf((*KubeDaemonSetV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1715,11 +1715,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta1Props",
 		reflect.TypeOf((*KubeDaemonSetV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta2",
 		reflect.TypeOf((*KubeDaemonSetV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1741,11 +1741,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta2Props",
 		reflect.TypeOf((*KubeDaemonSetV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeployment",
 		reflect.TypeOf((*KubeDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1767,7 +1767,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentList",
 		reflect.TypeOf((*KubeDeploymentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1789,11 +1789,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListProps",
 		reflect.TypeOf((*KubeDeploymentListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta1",
 		reflect.TypeOf((*KubeDeploymentListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1815,11 +1815,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta1Props",
 		reflect.TypeOf((*KubeDeploymentListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta2",
 		reflect.TypeOf((*KubeDeploymentListV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1841,15 +1841,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta2Props",
 		reflect.TypeOf((*KubeDeploymentListV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentProps",
 		reflect.TypeOf((*KubeDeploymentProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta1",
 		reflect.TypeOf((*KubeDeploymentV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1871,11 +1871,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta1Props",
 		reflect.TypeOf((*KubeDeploymentV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta2",
 		reflect.TypeOf((*KubeDeploymentV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1897,11 +1897,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta2Props",
 		reflect.TypeOf((*KubeDeploymentV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceListV1Beta1",
 		reflect.TypeOf((*KubeEndpointSliceListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1923,11 +1923,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceListV1Beta1Props",
 		reflect.TypeOf((*KubeEndpointSliceListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceV1Beta1",
 		reflect.TypeOf((*KubeEndpointSliceV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1949,11 +1949,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceV1Beta1Props",
 		reflect.TypeOf((*KubeEndpointSliceV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpoints",
 		reflect.TypeOf((*KubeEndpoints)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1975,7 +1975,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointsList",
 		reflect.TypeOf((*KubeEndpointsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -1997,15 +1997,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointsListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointsListProps",
 		reflect.TypeOf((*KubeEndpointsListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointsProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointsProps",
 		reflect.TypeOf((*KubeEndpointsProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvent",
 		reflect.TypeOf((*KubeEvent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2027,7 +2027,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventList",
 		reflect.TypeOf((*KubeEventList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2049,11 +2049,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventListProps",
 		reflect.TypeOf((*KubeEventListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventListV1Beta1",
 		reflect.TypeOf((*KubeEventListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2075,15 +2075,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventListV1Beta1Props",
 		reflect.TypeOf((*KubeEventListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventProps",
 		reflect.TypeOf((*KubeEventProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventV1Beta1",
 		reflect.TypeOf((*KubeEventV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2105,11 +2105,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventV1Beta1Props",
 		reflect.TypeOf((*KubeEventV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvictionV1Beta1",
 		reflect.TypeOf((*KubeEvictionV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2131,11 +2131,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvictionV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvictionV1Beta1Props",
 		reflect.TypeOf((*KubeEvictionV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaListV1Alpha1",
 		reflect.TypeOf((*KubeFlowSchemaListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2157,11 +2157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaListV1Alpha1Props",
 		reflect.TypeOf((*KubeFlowSchemaListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaV1Alpha1",
 		reflect.TypeOf((*KubeFlowSchemaV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2183,11 +2183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaV1Alpha1Props",
 		reflect.TypeOf((*KubeFlowSchemaV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscaler",
 		reflect.TypeOf((*KubeHorizontalPodAutoscaler)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2209,7 +2209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerList",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2231,11 +2231,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListProps",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerListV2Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2257,11 +2257,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta1Props",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerListV2Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerListV2Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2283,15 +2283,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta2Props",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerListV2Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerProps",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerV2Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2313,11 +2313,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta1Props",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerV2Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerV2Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2339,11 +2339,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta2Props",
 		reflect.TypeOf((*KubeHorizontalPodAutoscalerV2Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressListV1Beta1",
 		reflect.TypeOf((*KubeIngressListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2365,11 +2365,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressListV1Beta1Props",
 		reflect.TypeOf((*KubeIngressListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressV1Beta1",
 		reflect.TypeOf((*KubeIngressV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2391,11 +2391,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressV1Beta1Props",
 		reflect.TypeOf((*KubeIngressV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJob",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJob",
 		reflect.TypeOf((*KubeJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2417,7 +2417,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJobList",
 		reflect.TypeOf((*KubeJobList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2439,15 +2439,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJobListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJobListProps",
 		reflect.TypeOf((*KubeJobListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJobProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJobProps",
 		reflect.TypeOf((*KubeJobProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLease",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLease",
 		reflect.TypeOf((*KubeLease)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2469,7 +2469,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseList",
 		reflect.TypeOf((*KubeLeaseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2491,11 +2491,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseListProps",
 		reflect.TypeOf((*KubeLeaseListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseListV1Beta1",
 		reflect.TypeOf((*KubeLeaseListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2517,15 +2517,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseListV1Beta1Props",
 		reflect.TypeOf((*KubeLeaseListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseProps",
 		reflect.TypeOf((*KubeLeaseProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseV1Beta1",
 		reflect.TypeOf((*KubeLeaseV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2547,11 +2547,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseV1Beta1Props",
 		reflect.TypeOf((*KubeLeaseV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRange",
 		reflect.TypeOf((*KubeLimitRange)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2573,7 +2573,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRangeList",
 		reflect.TypeOf((*KubeLimitRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2595,15 +2595,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRangeListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRangeListProps",
 		reflect.TypeOf((*KubeLimitRangeListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRangeProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRangeProps",
 		reflect.TypeOf((*KubeLimitRangeProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReview",
 		reflect.TypeOf((*KubeLocalSubjectAccessReview)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2625,11 +2625,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReviewProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReviewProps",
 		reflect.TypeOf((*KubeLocalSubjectAccessReviewProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		reflect.TypeOf((*KubeLocalSubjectAccessReviewV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2651,11 +2651,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReviewV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReviewV1Beta1Props",
 		reflect.TypeOf((*KubeLocalSubjectAccessReviewV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfiguration",
 		reflect.TypeOf((*KubeMutatingWebhookConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2677,7 +2677,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationList",
 		reflect.TypeOf((*KubeMutatingWebhookConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2699,11 +2699,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationListProps",
 		reflect.TypeOf((*KubeMutatingWebhookConfigurationListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		reflect.TypeOf((*KubeMutatingWebhookConfigurationListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2725,15 +2725,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationListV1Beta1Props",
 		reflect.TypeOf((*KubeMutatingWebhookConfigurationListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationProps",
 		reflect.TypeOf((*KubeMutatingWebhookConfigurationProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		reflect.TypeOf((*KubeMutatingWebhookConfigurationV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2755,11 +2755,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationV1Beta1Props",
 		reflect.TypeOf((*KubeMutatingWebhookConfigurationV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespace",
 		reflect.TypeOf((*KubeNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2781,7 +2781,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespaceList",
 		reflect.TypeOf((*KubeNamespaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2803,15 +2803,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespaceListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespaceListProps",
 		reflect.TypeOf((*KubeNamespaceListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespaceProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespaceProps",
 		reflect.TypeOf((*KubeNamespaceProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicy",
 		reflect.TypeOf((*KubeNetworkPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2833,7 +2833,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyList",
 		reflect.TypeOf((*KubeNetworkPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2855,11 +2855,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyListProps",
 		reflect.TypeOf((*KubeNetworkPolicyListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyListV1Beta1",
 		reflect.TypeOf((*KubeNetworkPolicyListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2881,15 +2881,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyListV1Beta1Props",
 		reflect.TypeOf((*KubeNetworkPolicyListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyProps",
 		reflect.TypeOf((*KubeNetworkPolicyProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyV1Beta1",
 		reflect.TypeOf((*KubeNetworkPolicyV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2911,11 +2911,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyV1Beta1Props",
 		reflect.TypeOf((*KubeNetworkPolicyV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNode",
 		reflect.TypeOf((*KubeNode)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2937,7 +2937,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNodeList",
 		reflect.TypeOf((*KubeNodeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2959,15 +2959,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNodeListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNodeListProps",
 		reflect.TypeOf((*KubeNodeListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNodeProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNodeProps",
 		reflect.TypeOf((*KubeNodeProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolume",
 		reflect.TypeOf((*KubePersistentVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -2989,7 +2989,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaim",
 		reflect.TypeOf((*KubePersistentVolumeClaim)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3011,7 +3011,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaimList",
 		reflect.TypeOf((*KubePersistentVolumeClaimList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3033,15 +3033,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaimListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaimListProps",
 		reflect.TypeOf((*KubePersistentVolumeClaimListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaimProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaimProps",
 		reflect.TypeOf((*KubePersistentVolumeClaimProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeList",
 		reflect.TypeOf((*KubePersistentVolumeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3063,15 +3063,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeListProps",
 		reflect.TypeOf((*KubePersistentVolumeListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeProps",
 		reflect.TypeOf((*KubePersistentVolumeProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePod",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePod",
 		reflect.TypeOf((*KubePod)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3093,7 +3093,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetListV1Beta1",
 		reflect.TypeOf((*KubePodDisruptionBudgetListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3115,11 +3115,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetListV1Beta1Props",
 		reflect.TypeOf((*KubePodDisruptionBudgetListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetV1Beta1",
 		reflect.TypeOf((*KubePodDisruptionBudgetV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3141,11 +3141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetV1Beta1Props",
 		reflect.TypeOf((*KubePodDisruptionBudgetV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodList",
 		reflect.TypeOf((*KubePodList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3167,11 +3167,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodListProps",
 		reflect.TypeOf((*KubePodListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetListV1Alpha1",
 		reflect.TypeOf((*KubePodPresetListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3193,11 +3193,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetListV1Alpha1Props",
 		reflect.TypeOf((*KubePodPresetListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetV1Alpha1",
 		reflect.TypeOf((*KubePodPresetV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3219,15 +3219,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetV1Alpha1Props",
 		reflect.TypeOf((*KubePodPresetV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodProps",
 		reflect.TypeOf((*KubePodProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyListV1Beta1",
 		reflect.TypeOf((*KubePodSecurityPolicyListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3249,11 +3249,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyListV1Beta1Props",
 		reflect.TypeOf((*KubePodSecurityPolicyListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyV1Beta1",
 		reflect.TypeOf((*KubePodSecurityPolicyV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3275,11 +3275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyV1Beta1Props",
 		reflect.TypeOf((*KubePodSecurityPolicyV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplate",
 		reflect.TypeOf((*KubePodTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3301,7 +3301,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplateList",
 		reflect.TypeOf((*KubePodTemplateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3323,15 +3323,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplateListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplateListProps",
 		reflect.TypeOf((*KubePodTemplateListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplateProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplateProps",
 		reflect.TypeOf((*KubePodTemplateProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClass",
 		reflect.TypeOf((*KubePriorityClass)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3353,7 +3353,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassList",
 		reflect.TypeOf((*KubePriorityClassList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3375,11 +3375,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListProps",
 		reflect.TypeOf((*KubePriorityClassListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Alpha1",
 		reflect.TypeOf((*KubePriorityClassListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3401,11 +3401,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Alpha1Props",
 		reflect.TypeOf((*KubePriorityClassListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Beta1",
 		reflect.TypeOf((*KubePriorityClassListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3427,15 +3427,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Beta1Props",
 		reflect.TypeOf((*KubePriorityClassListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassProps",
 		reflect.TypeOf((*KubePriorityClassProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Alpha1",
 		reflect.TypeOf((*KubePriorityClassV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3457,11 +3457,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Alpha1Props",
 		reflect.TypeOf((*KubePriorityClassV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Beta1",
 		reflect.TypeOf((*KubePriorityClassV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3483,11 +3483,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Beta1Props",
 		reflect.TypeOf((*KubePriorityClassV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationListV1Alpha1",
 		reflect.TypeOf((*KubePriorityLevelConfigurationListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3509,11 +3509,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationListV1Alpha1Props",
 		reflect.TypeOf((*KubePriorityLevelConfigurationListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationV1Alpha1",
 		reflect.TypeOf((*KubePriorityLevelConfigurationV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3535,11 +3535,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationV1Alpha1Props",
 		reflect.TypeOf((*KubePriorityLevelConfigurationV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSet",
 		reflect.TypeOf((*KubeReplicaSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3561,7 +3561,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetList",
 		reflect.TypeOf((*KubeReplicaSetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3583,11 +3583,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListProps",
 		reflect.TypeOf((*KubeReplicaSetListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta1",
 		reflect.TypeOf((*KubeReplicaSetListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3609,11 +3609,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta1Props",
 		reflect.TypeOf((*KubeReplicaSetListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta2",
 		reflect.TypeOf((*KubeReplicaSetListV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3635,15 +3635,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta2Props",
 		reflect.TypeOf((*KubeReplicaSetListV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetProps",
 		reflect.TypeOf((*KubeReplicaSetProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta1",
 		reflect.TypeOf((*KubeReplicaSetV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3665,11 +3665,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta1Props",
 		reflect.TypeOf((*KubeReplicaSetV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta2",
 		reflect.TypeOf((*KubeReplicaSetV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3691,11 +3691,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta2Props",
 		reflect.TypeOf((*KubeReplicaSetV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationController",
 		reflect.TypeOf((*KubeReplicationController)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3717,7 +3717,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationControllerList",
 		reflect.TypeOf((*KubeReplicationControllerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3739,15 +3739,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationControllerListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationControllerListProps",
 		reflect.TypeOf((*KubeReplicationControllerListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationControllerProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationControllerProps",
 		reflect.TypeOf((*KubeReplicationControllerProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuota",
 		reflect.TypeOf((*KubeResourceQuota)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3769,7 +3769,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuotaList",
 		reflect.TypeOf((*KubeResourceQuotaList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3791,15 +3791,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuotaListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuotaListProps",
 		reflect.TypeOf((*KubeResourceQuotaListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuotaProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuotaProps",
 		reflect.TypeOf((*KubeResourceQuotaProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRole",
 		reflect.TypeOf((*KubeRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3821,7 +3821,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBinding",
 		reflect.TypeOf((*KubeRoleBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3843,7 +3843,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingList",
 		reflect.TypeOf((*KubeRoleBindingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3865,11 +3865,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListProps",
 		reflect.TypeOf((*KubeRoleBindingListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Alpha1",
 		reflect.TypeOf((*KubeRoleBindingListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3891,11 +3891,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Alpha1Props",
 		reflect.TypeOf((*KubeRoleBindingListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Beta1",
 		reflect.TypeOf((*KubeRoleBindingListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3917,15 +3917,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Beta1Props",
 		reflect.TypeOf((*KubeRoleBindingListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingProps",
 		reflect.TypeOf((*KubeRoleBindingProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Alpha1",
 		reflect.TypeOf((*KubeRoleBindingV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3947,11 +3947,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Alpha1Props",
 		reflect.TypeOf((*KubeRoleBindingV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Beta1",
 		reflect.TypeOf((*KubeRoleBindingV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3973,11 +3973,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Beta1Props",
 		reflect.TypeOf((*KubeRoleBindingV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleList",
 		reflect.TypeOf((*KubeRoleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -3999,11 +3999,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListProps",
 		reflect.TypeOf((*KubeRoleListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Alpha1",
 		reflect.TypeOf((*KubeRoleListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4025,11 +4025,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Alpha1Props",
 		reflect.TypeOf((*KubeRoleListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Beta1",
 		reflect.TypeOf((*KubeRoleListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4051,15 +4051,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Beta1Props",
 		reflect.TypeOf((*KubeRoleListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleProps",
 		reflect.TypeOf((*KubeRoleProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Alpha1",
 		reflect.TypeOf((*KubeRoleV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4081,11 +4081,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Alpha1Props",
 		reflect.TypeOf((*KubeRoleV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Beta1",
 		reflect.TypeOf((*KubeRoleV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4107,11 +4107,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Beta1Props",
 		reflect.TypeOf((*KubeRoleV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Alpha1",
 		reflect.TypeOf((*KubeRuntimeClassListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4133,11 +4133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Alpha1Props",
 		reflect.TypeOf((*KubeRuntimeClassListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Beta1",
 		reflect.TypeOf((*KubeRuntimeClassListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4159,11 +4159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Beta1Props",
 		reflect.TypeOf((*KubeRuntimeClassListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Alpha1",
 		reflect.TypeOf((*KubeRuntimeClassV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4185,11 +4185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Alpha1Props",
 		reflect.TypeOf((*KubeRuntimeClassV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Beta1",
 		reflect.TypeOf((*KubeRuntimeClassV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4211,11 +4211,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Beta1Props",
 		reflect.TypeOf((*KubeRuntimeClassV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScale",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScale",
 		reflect.TypeOf((*KubeScale)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4237,11 +4237,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleProps",
 		reflect.TypeOf((*KubeScaleProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta1",
 		reflect.TypeOf((*KubeScaleV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4263,11 +4263,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta1Props",
 		reflect.TypeOf((*KubeScaleV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta2",
 		reflect.TypeOf((*KubeScaleV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4289,11 +4289,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta2Props",
 		reflect.TypeOf((*KubeScaleV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecret",
 		reflect.TypeOf((*KubeSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4315,7 +4315,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecretList",
 		reflect.TypeOf((*KubeSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4337,15 +4337,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecretListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecretListProps",
 		reflect.TypeOf((*KubeSecretListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecretProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecretProps",
 		reflect.TypeOf((*KubeSecretProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReview",
 		reflect.TypeOf((*KubeSelfSubjectAccessReview)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4367,11 +4367,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReviewProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReviewProps",
 		reflect.TypeOf((*KubeSelfSubjectAccessReviewProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		reflect.TypeOf((*KubeSelfSubjectAccessReviewV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4393,11 +4393,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReviewV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReviewV1Beta1Props",
 		reflect.TypeOf((*KubeSelfSubjectAccessReviewV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReview",
 		reflect.TypeOf((*KubeSelfSubjectRulesReview)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4419,11 +4419,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReviewProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReviewProps",
 		reflect.TypeOf((*KubeSelfSubjectRulesReviewProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		reflect.TypeOf((*KubeSelfSubjectRulesReviewV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4445,11 +4445,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReviewV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReviewV1Beta1Props",
 		reflect.TypeOf((*KubeSelfSubjectRulesReviewV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeService",
 		reflect.TypeOf((*KubeService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4471,7 +4471,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccount",
 		reflect.TypeOf((*KubeServiceAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4493,7 +4493,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccountList",
 		reflect.TypeOf((*KubeServiceAccountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4515,15 +4515,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccountListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccountListProps",
 		reflect.TypeOf((*KubeServiceAccountListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccountProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccountProps",
 		reflect.TypeOf((*KubeServiceAccountProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceList",
 		reflect.TypeOf((*KubeServiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4545,15 +4545,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceListProps",
 		reflect.TypeOf((*KubeServiceListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceProps",
 		reflect.TypeOf((*KubeServiceProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSet",
 		reflect.TypeOf((*KubeStatefulSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4575,7 +4575,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetList",
 		reflect.TypeOf((*KubeStatefulSetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4597,11 +4597,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListProps",
 		reflect.TypeOf((*KubeStatefulSetListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta1",
 		reflect.TypeOf((*KubeStatefulSetListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4623,11 +4623,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta1Props",
 		reflect.TypeOf((*KubeStatefulSetListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta2",
 		reflect.TypeOf((*KubeStatefulSetListV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4649,15 +4649,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta2Props",
 		reflect.TypeOf((*KubeStatefulSetListV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetProps",
 		reflect.TypeOf((*KubeStatefulSetProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta1",
 		reflect.TypeOf((*KubeStatefulSetV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4679,11 +4679,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta1Props",
 		reflect.TypeOf((*KubeStatefulSetV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta2",
 		reflect.TypeOf((*KubeStatefulSetV1Beta2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4705,11 +4705,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta2Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta2Props",
 		reflect.TypeOf((*KubeStatefulSetV1Beta2Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatus",
 		reflect.TypeOf((*KubeStatus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4731,11 +4731,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatusProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatusProps",
 		reflect.TypeOf((*KubeStatusProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClass",
 		reflect.TypeOf((*KubeStorageClass)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4757,7 +4757,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassList",
 		reflect.TypeOf((*KubeStorageClassList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4779,11 +4779,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassListProps",
 		reflect.TypeOf((*KubeStorageClassListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassListV1Beta1",
 		reflect.TypeOf((*KubeStorageClassListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4805,15 +4805,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassListV1Beta1Props",
 		reflect.TypeOf((*KubeStorageClassListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassProps",
 		reflect.TypeOf((*KubeStorageClassProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassV1Beta1",
 		reflect.TypeOf((*KubeStorageClassV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4835,11 +4835,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassV1Beta1Props",
 		reflect.TypeOf((*KubeStorageClassV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReview",
 		reflect.TypeOf((*KubeSubjectAccessReview)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4861,11 +4861,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReviewProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReviewProps",
 		reflect.TypeOf((*KubeSubjectAccessReviewProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReviewV1Beta1",
 		reflect.TypeOf((*KubeSubjectAccessReviewV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4887,11 +4887,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReviewV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReviewV1Beta1Props",
 		reflect.TypeOf((*KubeSubjectAccessReviewV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenRequest",
 		reflect.TypeOf((*KubeTokenRequest)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4913,11 +4913,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenRequestProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenRequestProps",
 		reflect.TypeOf((*KubeTokenRequestProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReview",
 		reflect.TypeOf((*KubeTokenReview)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4939,11 +4939,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReviewProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReviewProps",
 		reflect.TypeOf((*KubeTokenReviewProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReviewV1Beta1",
 		reflect.TypeOf((*KubeTokenReviewV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4965,11 +4965,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReviewV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReviewV1Beta1Props",
 		reflect.TypeOf((*KubeTokenReviewV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfiguration",
 		reflect.TypeOf((*KubeValidatingWebhookConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -4991,7 +4991,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationList",
 		reflect.TypeOf((*KubeValidatingWebhookConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -5013,11 +5013,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationListProps",
 		reflect.TypeOf((*KubeValidatingWebhookConfigurationListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		reflect.TypeOf((*KubeValidatingWebhookConfigurationListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -5039,15 +5039,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationListV1Beta1Props",
 		reflect.TypeOf((*KubeValidatingWebhookConfigurationListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationProps",
 		reflect.TypeOf((*KubeValidatingWebhookConfigurationProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		reflect.TypeOf((*KubeValidatingWebhookConfigurationV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -5069,11 +5069,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationV1Beta1Props",
 		reflect.TypeOf((*KubeValidatingWebhookConfigurationV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachment",
 		reflect.TypeOf((*KubeVolumeAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -5095,7 +5095,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentList",
 		reflect.TypeOf((*KubeVolumeAttachmentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -5117,11 +5117,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListProps",
 		reflect.TypeOf((*KubeVolumeAttachmentListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Alpha1",
 		reflect.TypeOf((*KubeVolumeAttachmentListV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -5143,11 +5143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Alpha1Props",
 		reflect.TypeOf((*KubeVolumeAttachmentListV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Beta1",
 		reflect.TypeOf((*KubeVolumeAttachmentListV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -5169,15 +5169,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Beta1Props",
 		reflect.TypeOf((*KubeVolumeAttachmentListV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentProps",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentProps",
 		reflect.TypeOf((*KubeVolumeAttachmentProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Alpha1",
 		reflect.TypeOf((*KubeVolumeAttachmentV1Alpha1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -5199,11 +5199,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Alpha1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Alpha1Props",
 		reflect.TypeOf((*KubeVolumeAttachmentV1Alpha1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Beta1",
 		reflect.TypeOf((*KubeVolumeAttachmentV1Beta1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -5225,267 +5225,267 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Beta1Props",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Beta1Props",
 		reflect.TypeOf((*KubeVolumeAttachmentV1Beta1Props)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.LabelSelector",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.LabelSelector",
 		reflect.TypeOf((*LabelSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.LabelSelectorRequirement",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.LabelSelectorRequirement",
 		reflect.TypeOf((*LabelSelectorRequirement)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.LeaseSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.LeaseSpec",
 		reflect.TypeOf((*LeaseSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Lifecycle",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Lifecycle",
 		reflect.TypeOf((*Lifecycle)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.LimitRangeItem",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.LimitRangeItem",
 		reflect.TypeOf((*LimitRangeItem)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.LimitRangeSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.LimitRangeSpec",
 		reflect.TypeOf((*LimitRangeSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.LimitResponse",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.LimitResponse",
 		reflect.TypeOf((*LimitResponse)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.LimitedPriorityLevelConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.LimitedPriorityLevelConfiguration",
 		reflect.TypeOf((*LimitedPriorityLevelConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ListMeta",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ListMeta",
 		reflect.TypeOf((*ListMeta)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.LocalObjectReference",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.LocalObjectReference",
 		reflect.TypeOf((*LocalObjectReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.LocalVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.LocalVolumeSource",
 		reflect.TypeOf((*LocalVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ManagedFieldsEntry",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ManagedFieldsEntry",
 		reflect.TypeOf((*ManagedFieldsEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.MetricIdentifier",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.MetricIdentifier",
 		reflect.TypeOf((*MetricIdentifier)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.MetricSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.MetricSpec",
 		reflect.TypeOf((*MetricSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.MetricTarget",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.MetricTarget",
 		reflect.TypeOf((*MetricTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.MutatingWebhook",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.MutatingWebhook",
 		reflect.TypeOf((*MutatingWebhook)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NamespaceSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NamespaceSpec",
 		reflect.TypeOf((*NamespaceSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NetworkPolicyEgressRule",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NetworkPolicyEgressRule",
 		reflect.TypeOf((*NetworkPolicyEgressRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NetworkPolicyIngressRule",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NetworkPolicyIngressRule",
 		reflect.TypeOf((*NetworkPolicyIngressRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NetworkPolicyPeer",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NetworkPolicyPeer",
 		reflect.TypeOf((*NetworkPolicyPeer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NetworkPolicyPort",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NetworkPolicyPort",
 		reflect.TypeOf((*NetworkPolicyPort)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NetworkPolicySpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NetworkPolicySpec",
 		reflect.TypeOf((*NetworkPolicySpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NfsVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NfsVolumeSource",
 		reflect.TypeOf((*NfsVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NodeAffinity",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NodeAffinity",
 		reflect.TypeOf((*NodeAffinity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NodeConfigSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NodeConfigSource",
 		reflect.TypeOf((*NodeConfigSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NodeSelector",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NodeSelector",
 		reflect.TypeOf((*NodeSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NodeSelectorRequirement",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NodeSelectorRequirement",
 		reflect.TypeOf((*NodeSelectorRequirement)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NodeSelectorTerm",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NodeSelectorTerm",
 		reflect.TypeOf((*NodeSelectorTerm)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NodeSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NodeSpec",
 		reflect.TypeOf((*NodeSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NonResourceAttributes",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NonResourceAttributes",
 		reflect.TypeOf((*NonResourceAttributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.NonResourcePolicyRule",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.NonResourcePolicyRule",
 		reflect.TypeOf((*NonResourcePolicyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ObjectFieldSelector",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ObjectFieldSelector",
 		reflect.TypeOf((*ObjectFieldSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ObjectMeta",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ObjectMeta",
 		reflect.TypeOf((*ObjectMeta)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ObjectMetricSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ObjectMetricSource",
 		reflect.TypeOf((*ObjectMetricSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ObjectReference",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ObjectReference",
 		reflect.TypeOf((*ObjectReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Overhead",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Overhead",
 		reflect.TypeOf((*Overhead)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.OwnerReference",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.OwnerReference",
 		reflect.TypeOf((*OwnerReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PersistentVolumeClaimSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PersistentVolumeClaimSpec",
 		reflect.TypeOf((*PersistentVolumeClaimSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PersistentVolumeClaimVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PersistentVolumeClaimVolumeSource",
 		reflect.TypeOf((*PersistentVolumeClaimVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PersistentVolumeSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PersistentVolumeSpec",
 		reflect.TypeOf((*PersistentVolumeSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PhotonPersistentDiskVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PhotonPersistentDiskVolumeSource",
 		reflect.TypeOf((*PhotonPersistentDiskVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodAffinity",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodAffinity",
 		reflect.TypeOf((*PodAffinity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodAffinityTerm",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodAffinityTerm",
 		reflect.TypeOf((*PodAffinityTerm)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodAntiAffinity",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodAntiAffinity",
 		reflect.TypeOf((*PodAntiAffinity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodDisruptionBudgetSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodDisruptionBudgetSpec",
 		reflect.TypeOf((*PodDisruptionBudgetSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodDnsConfig",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodDnsConfig",
 		reflect.TypeOf((*PodDnsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodDnsConfigOption",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodDnsConfigOption",
 		reflect.TypeOf((*PodDnsConfigOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodPresetSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodPresetSpec",
 		reflect.TypeOf((*PodPresetSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodReadinessGate",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodReadinessGate",
 		reflect.TypeOf((*PodReadinessGate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodSecurityContext",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodSecurityContext",
 		reflect.TypeOf((*PodSecurityContext)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodSecurityPolicySpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodSecurityPolicySpec",
 		reflect.TypeOf((*PodSecurityPolicySpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodSpec",
 		reflect.TypeOf((*PodSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodTemplateSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodTemplateSpec",
 		reflect.TypeOf((*PodTemplateSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PodsMetricSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PodsMetricSource",
 		reflect.TypeOf((*PodsMetricSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Policy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Policy",
 		reflect.TypeOf((*Policy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PolicyRule",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PolicyRule",
 		reflect.TypeOf((*PolicyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PolicyRulesWithSubjects",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PolicyRulesWithSubjects",
 		reflect.TypeOf((*PolicyRulesWithSubjects)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PortworxVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PortworxVolumeSource",
 		reflect.TypeOf((*PortworxVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Preconditions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Preconditions",
 		reflect.TypeOf((*Preconditions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PreferredSchedulingTerm",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PreferredSchedulingTerm",
 		reflect.TypeOf((*PreferredSchedulingTerm)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PriorityLevelConfigurationReference",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PriorityLevelConfigurationReference",
 		reflect.TypeOf((*PriorityLevelConfigurationReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.PriorityLevelConfigurationSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.PriorityLevelConfigurationSpec",
 		reflect.TypeOf((*PriorityLevelConfigurationSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Probe",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Probe",
 		reflect.TypeOf((*Probe)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ProjectedVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ProjectedVolumeSource",
 		reflect.TypeOf((*ProjectedVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Quantity",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Quantity",
 		reflect.TypeOf((*Quantity)(nil)).Elem(),
 		nil, // no members
 		func() interface{} {
@@ -5493,311 +5493,311 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.QueuingConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.QueuingConfiguration",
 		reflect.TypeOf((*QueuingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.QuobyteVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.QuobyteVolumeSource",
 		reflect.TypeOf((*QuobyteVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RbdPersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RbdPersistentVolumeSource",
 		reflect.TypeOf((*RbdPersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RbdVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RbdVolumeSource",
 		reflect.TypeOf((*RbdVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ReplicaSetSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ReplicaSetSpec",
 		reflect.TypeOf((*ReplicaSetSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ReplicationControllerSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ReplicationControllerSpec",
 		reflect.TypeOf((*ReplicationControllerSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ResourceAttributes",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ResourceAttributes",
 		reflect.TypeOf((*ResourceAttributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ResourceFieldSelector",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ResourceFieldSelector",
 		reflect.TypeOf((*ResourceFieldSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ResourceMetricSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ResourceMetricSource",
 		reflect.TypeOf((*ResourceMetricSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ResourcePolicyRule",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ResourcePolicyRule",
 		reflect.TypeOf((*ResourcePolicyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ResourceQuotaSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ResourceQuotaSpec",
 		reflect.TypeOf((*ResourceQuotaSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ResourceRequirements",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ResourceRequirements",
 		reflect.TypeOf((*ResourceRequirements)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RoleRef",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RoleRef",
 		reflect.TypeOf((*RoleRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RollingUpdateDaemonSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RollingUpdateDaemonSet",
 		reflect.TypeOf((*RollingUpdateDaemonSet)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RollingUpdateDeployment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RollingUpdateDeployment",
 		reflect.TypeOf((*RollingUpdateDeployment)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RollingUpdateStatefulSetStrategy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RollingUpdateStatefulSetStrategy",
 		reflect.TypeOf((*RollingUpdateStatefulSetStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RuleWithOperations",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RuleWithOperations",
 		reflect.TypeOf((*RuleWithOperations)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RunAsGroupStrategyOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RunAsGroupStrategyOptions",
 		reflect.TypeOf((*RunAsGroupStrategyOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RunAsUserStrategyOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RunAsUserStrategyOptions",
 		reflect.TypeOf((*RunAsUserStrategyOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RuntimeClassSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RuntimeClassSpec",
 		reflect.TypeOf((*RuntimeClassSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.RuntimeClassStrategyOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.RuntimeClassStrategyOptions",
 		reflect.TypeOf((*RuntimeClassStrategyOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ScaleIoPersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ScaleIoPersistentVolumeSource",
 		reflect.TypeOf((*ScaleIoPersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ScaleIoVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ScaleIoVolumeSource",
 		reflect.TypeOf((*ScaleIoVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ScaleSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ScaleSpec",
 		reflect.TypeOf((*ScaleSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Scheduling",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Scheduling",
 		reflect.TypeOf((*Scheduling)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ScopeSelector",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ScopeSelector",
 		reflect.TypeOf((*ScopeSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ScopedResourceSelectorRequirement",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ScopedResourceSelectorRequirement",
 		reflect.TypeOf((*ScopedResourceSelectorRequirement)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SeLinuxOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SeLinuxOptions",
 		reflect.TypeOf((*SeLinuxOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SeLinuxStrategyOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SeLinuxStrategyOptions",
 		reflect.TypeOf((*SeLinuxStrategyOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SecretEnvSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SecretEnvSource",
 		reflect.TypeOf((*SecretEnvSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SecretKeySelector",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SecretKeySelector",
 		reflect.TypeOf((*SecretKeySelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SecretProjection",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SecretProjection",
 		reflect.TypeOf((*SecretProjection)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SecretReference",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SecretReference",
 		reflect.TypeOf((*SecretReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SecretVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SecretVolumeSource",
 		reflect.TypeOf((*SecretVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SecurityContext",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SecurityContext",
 		reflect.TypeOf((*SecurityContext)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SelfSubjectAccessReviewSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SelfSubjectAccessReviewSpec",
 		reflect.TypeOf((*SelfSubjectAccessReviewSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SelfSubjectRulesReviewSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SelfSubjectRulesReviewSpec",
 		reflect.TypeOf((*SelfSubjectRulesReviewSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ServiceAccountTokenProjection",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ServiceAccountTokenProjection",
 		reflect.TypeOf((*ServiceAccountTokenProjection)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ServicePort",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ServicePort",
 		reflect.TypeOf((*ServicePort)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ServiceReference",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ServiceReference",
 		reflect.TypeOf((*ServiceReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ServiceSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ServiceSpec",
 		reflect.TypeOf((*ServiceSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SessionAffinityConfig",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SessionAffinityConfig",
 		reflect.TypeOf((*SessionAffinityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SshKey",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SshKey",
 		reflect.TypeOf((*SshKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.StatefulSetSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.StatefulSetSpec",
 		reflect.TypeOf((*StatefulSetSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.StatefulSetUpdateStrategy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.StatefulSetUpdateStrategy",
 		reflect.TypeOf((*StatefulSetUpdateStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.StatusCause",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.StatusCause",
 		reflect.TypeOf((*StatusCause)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.StatusDetails",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.StatusDetails",
 		reflect.TypeOf((*StatusDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.StorageOsPersistentVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.StorageOsPersistentVolumeSource",
 		reflect.TypeOf((*StorageOsPersistentVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.StorageOsVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.StorageOsVolumeSource",
 		reflect.TypeOf((*StorageOsVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Subject",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Subject",
 		reflect.TypeOf((*Subject)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SubjectAccessReviewSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SubjectAccessReviewSpec",
 		reflect.TypeOf((*SubjectAccessReviewSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.SupplementalGroupsStrategyOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.SupplementalGroupsStrategyOptions",
 		reflect.TypeOf((*SupplementalGroupsStrategyOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Sysctl",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Sysctl",
 		reflect.TypeOf((*Sysctl)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Taint",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Taint",
 		reflect.TypeOf((*Taint)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.TcpSocketAction",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.TcpSocketAction",
 		reflect.TypeOf((*TcpSocketAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.TokenRequestSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.TokenRequestSpec",
 		reflect.TypeOf((*TokenRequestSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.TokenReviewSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.TokenReviewSpec",
 		reflect.TypeOf((*TokenReviewSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Toleration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Toleration",
 		reflect.TypeOf((*Toleration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.TopologySelectorLabelRequirement",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.TopologySelectorLabelRequirement",
 		reflect.TypeOf((*TopologySelectorLabelRequirement)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.TopologySelectorTerm",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.TopologySelectorTerm",
 		reflect.TypeOf((*TopologySelectorTerm)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.TopologySpreadConstraint",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.TopologySpreadConstraint",
 		reflect.TypeOf((*TopologySpreadConstraint)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.TypedLocalObjectReference",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.TypedLocalObjectReference",
 		reflect.TypeOf((*TypedLocalObjectReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.ValidatingWebhook",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.ValidatingWebhook",
 		reflect.TypeOf((*ValidatingWebhook)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Volume",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Volume",
 		reflect.TypeOf((*Volume)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.VolumeAttachmentSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.VolumeAttachmentSource",
 		reflect.TypeOf((*VolumeAttachmentSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.VolumeAttachmentSpec",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.VolumeAttachmentSpec",
 		reflect.TypeOf((*VolumeAttachmentSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.VolumeDevice",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.VolumeDevice",
 		reflect.TypeOf((*VolumeDevice)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.VolumeMount",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.VolumeMount",
 		reflect.TypeOf((*VolumeMount)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.VolumeNodeAffinity",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.VolumeNodeAffinity",
 		reflect.TypeOf((*VolumeNodeAffinity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.VolumeNodeResources",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.VolumeNodeResources",
 		reflect.TypeOf((*VolumeNodeResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.VolumeProjection",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.VolumeProjection",
 		reflect.TypeOf((*VolumeProjection)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.VsphereVirtualDiskVolumeSource",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.VsphereVirtualDiskVolumeSource",
 		reflect.TypeOf((*VsphereVirtualDiskVolumeSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Webhook",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Webhook",
 		reflect.TypeOf((*Webhook)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.WebhookClientConfig",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.WebhookClientConfig",
 		reflect.TypeOf((*WebhookClientConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.WebhookThrottleConfig",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.WebhookThrottleConfig",
 		reflect.TypeOf((*WebhookThrottleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.WeightedPodAffinityTerm",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.WeightedPodAffinityTerm",
 		reflect.TypeOf((*WeightedPodAffinityTerm)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.WindowsSecurityContextOptions",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.WindowsSecurityContextOptions",
 		reflect.TypeOf((*WindowsSecurityContextOptions)(nil)).Elem(),
 	)
 }

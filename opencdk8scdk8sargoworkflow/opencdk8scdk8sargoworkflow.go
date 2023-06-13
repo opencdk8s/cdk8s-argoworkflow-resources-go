@@ -1,16 +1,16 @@
-// @opencdk8s/cdk8s-argoworkflow-resources
-package opencdk8scdk8sargoworkflowresources
+// @opencdk8s/cdk8s-argoworkflow
+package opencdk8scdk8sargoworkflow
 
 import (
 	"time"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflowresources/jsii"
+	_init_ "github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflow/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
 	"github.com/cdk8s-team/cdk8s-core-go/cdk8s/v2"
-	"github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflowresources/internal"
-	"github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflowresources/k8s"
+	"github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflow/internal"
+	"github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflow/k8s"
 )
 
 type ArchiveStrategy struct {
@@ -144,7 +144,7 @@ func NewArgoWorkflowClusterWorkflowTemplate(scope constructs.Construct, name *st
 	j := jsiiProxy_ArgoWorkflowClusterWorkflowTemplate{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowClusterWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowClusterWorkflowTemplate",
 		[]interface{}{scope, name, props},
 		&j,
 	)
@@ -156,7 +156,7 @@ func NewArgoWorkflowClusterWorkflowTemplate_Override(a ArgoWorkflowClusterWorkfl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowClusterWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowClusterWorkflowTemplate",
 		[]interface{}{scope, name, props},
 		a,
 	)
@@ -172,7 +172,7 @@ func ArgoWorkflowClusterWorkflowTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowClusterWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowClusterWorkflowTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -187,7 +187,7 @@ func ArgoWorkflowClusterWorkflowTemplate_Manifest(props *ClusterWorkflowTemplate
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowClusterWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowClusterWorkflowTemplate",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -207,7 +207,7 @@ func ArgoWorkflowClusterWorkflowTemplate_Of(c constructs.IConstruct) cdk8s.ApiOb
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowClusterWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowClusterWorkflowTemplate",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -220,7 +220,7 @@ func ArgoWorkflowClusterWorkflowTemplate_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowClusterWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowClusterWorkflowTemplate",
 		"GVK",
 		&returns,
 	)
@@ -401,7 +401,7 @@ func NewArgoWorkflowCronWorkflow(scope constructs.Construct, name *string, props
 	j := jsiiProxy_ArgoWorkflowCronWorkflow{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowCronWorkflow",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowCronWorkflow",
 		[]interface{}{scope, name, props},
 		&j,
 	)
@@ -413,7 +413,7 @@ func NewArgoWorkflowCronWorkflow_Override(a ArgoWorkflowCronWorkflow, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowCronWorkflow",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowCronWorkflow",
 		[]interface{}{scope, name, props},
 		a,
 	)
@@ -429,7 +429,7 @@ func ArgoWorkflowCronWorkflow_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowCronWorkflow",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowCronWorkflow",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -444,7 +444,7 @@ func ArgoWorkflowCronWorkflow_Manifest(props *CronWorkflow) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowCronWorkflow",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowCronWorkflow",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -464,7 +464,7 @@ func ArgoWorkflowCronWorkflow_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowCronWorkflow",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowCronWorkflow",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -477,7 +477,7 @@ func ArgoWorkflowCronWorkflow_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowCronWorkflow",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowCronWorkflow",
 		"GVK",
 		&returns,
 	)
@@ -658,7 +658,7 @@ func NewArgoWorkflowWorkflowTemplate(scope constructs.Construct, name *string, p
 	j := jsiiProxy_ArgoWorkflowWorkflowTemplate{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowWorkflowTemplate",
 		[]interface{}{scope, name, props},
 		&j,
 	)
@@ -670,7 +670,7 @@ func NewArgoWorkflowWorkflowTemplate_Override(a ArgoWorkflowWorkflowTemplate, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowWorkflowTemplate",
 		[]interface{}{scope, name, props},
 		a,
 	)
@@ -686,7 +686,7 @@ func ArgoWorkflowWorkflowTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowWorkflowTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func ArgoWorkflowWorkflowTemplate_Manifest(props *WorkflowTemplate) interface{} 
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowWorkflowTemplate",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -721,7 +721,7 @@ func ArgoWorkflowWorkflowTemplate_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowWorkflowTemplate",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -734,7 +734,7 @@ func ArgoWorkflowWorkflowTemplate_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"@opencdk8s/cdk8s-argoworkflow-resources.ArgoWorkflowWorkflowTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.ArgoWorkflowWorkflowTemplate",
 		"GVK",
 		&returns,
 	)
@@ -1249,6 +1249,7 @@ type Outputs struct {
 type Parameter struct {
 	Name *string `field:"required" json:"name" yaml:"name"`
 	Default *string `field:"optional" json:"default" yaml:"default"`
+	Description *string `field:"optional" json:"description" yaml:"description"`
 	Enum *[]*string `field:"optional" json:"enum" yaml:"enum"`
 	GlobalName *string `field:"optional" json:"globalName" yaml:"globalName"`
 	Value *string `field:"optional" json:"value" yaml:"value"`
@@ -1488,6 +1489,7 @@ type UserContainer struct {
 }
 
 type ValueFrom struct {
+	ConfigMapKeyRef *k8s.ConfigMapKeySelector `field:"optional" json:"configMapKeyRef" yaml:"configMapKeyRef"`
 	Default *string `field:"optional" json:"default" yaml:"default"`
 	Event *string `field:"optional" json:"event" yaml:"event"`
 	Expression *string `field:"optional" json:"expression" yaml:"expression"`

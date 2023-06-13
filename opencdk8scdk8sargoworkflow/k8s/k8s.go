@@ -4,11 +4,11 @@ import (
 	"time"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflowresources/jsii"
+	_init_ "github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflow/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
 	"github.com/cdk8s-team/cdk8s-core-go/cdk8s/v2"
-	"github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflowresources/k8s/internal"
+	"github.com/opencdk8s/cdk8s-argoworkflow-resources-go/opencdk8scdk8sargoworkflow/k8s/internal"
 )
 
 // Affinity is a group of affinity scheduling rules.
@@ -1610,7 +1610,7 @@ func IntOrString_FromNumber(value *float64) IntOrString {
 	var returns IntOrString
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IntOrString",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IntOrString",
 		"fromNumber",
 		[]interface{}{value},
 		&returns,
@@ -1625,7 +1625,7 @@ func IntOrString_FromString(value *string) IntOrString {
 	var returns IntOrString
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.IntOrString",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.IntOrString",
 		"fromString",
 		[]interface{}{value},
 		&returns,
@@ -1969,7 +1969,7 @@ func NewKubeApiService(scope constructs.Construct, id *string, props *KubeApiSer
 	j := jsiiProxy_KubeApiService{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiService",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -1982,7 +1982,7 @@ func NewKubeApiService_Override(k KubeApiService, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiService",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -1998,7 +1998,7 @@ func KubeApiService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2018,7 +2018,7 @@ func KubeApiService_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiService",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -2203,7 +2203,7 @@ func NewKubeApiServiceList(scope constructs.Construct, id *string, props *KubeAp
 	j := jsiiProxy_KubeApiServiceList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -2216,7 +2216,7 @@ func NewKubeApiServiceList_Override(k KubeApiServiceList, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -2232,7 +2232,7 @@ func KubeApiServiceList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2252,7 +2252,7 @@ func KubeApiServiceList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -2443,7 +2443,7 @@ func NewKubeApiServiceListV1Beta1(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeApiServiceListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -2456,7 +2456,7 @@ func NewKubeApiServiceListV1Beta1_Override(k KubeApiServiceListV1Beta1, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -2472,7 +2472,7 @@ func KubeApiServiceListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2492,7 +2492,7 @@ func KubeApiServiceListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -2694,7 +2694,7 @@ func NewKubeApiServiceV1Beta1(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeApiServiceV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -2707,7 +2707,7 @@ func NewKubeApiServiceV1Beta1_Override(k KubeApiServiceV1Beta1, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -2723,7 +2723,7 @@ func KubeApiServiceV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2743,7 +2743,7 @@ func KubeApiServiceV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeApiServiceV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -2937,7 +2937,7 @@ func NewKubeAuditSinkListV1Alpha1(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeAuditSinkListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -2950,7 +2950,7 @@ func NewKubeAuditSinkListV1Alpha1_Override(k KubeAuditSinkListV1Alpha1, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -2966,7 +2966,7 @@ func KubeAuditSinkListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2986,7 +2986,7 @@ func KubeAuditSinkListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -3178,7 +3178,7 @@ func NewKubeAuditSinkV1Alpha1(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeAuditSinkV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -3191,7 +3191,7 @@ func NewKubeAuditSinkV1Alpha1_Override(k KubeAuditSinkV1Alpha1, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -3207,7 +3207,7 @@ func KubeAuditSinkV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -3227,7 +3227,7 @@ func KubeAuditSinkV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeAuditSinkV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeAuditSinkV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -3421,7 +3421,7 @@ func NewKubeBinding(scope constructs.Construct, id *string, props *KubeBindingPr
 	j := jsiiProxy_KubeBinding{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeBinding",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -3434,7 +3434,7 @@ func NewKubeBinding_Override(k KubeBinding, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeBinding",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -3450,7 +3450,7 @@ func KubeBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -3470,7 +3470,7 @@ func KubeBinding_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeBinding",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -3666,7 +3666,7 @@ func NewKubeCertificateSigningRequestListV1Beta1(scope constructs.Construct, id 
 	j := jsiiProxy_KubeCertificateSigningRequestListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -3679,7 +3679,7 @@ func NewKubeCertificateSigningRequestListV1Beta1_Override(k KubeCertificateSigni
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -3695,7 +3695,7 @@ func KubeCertificateSigningRequestListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -3715,7 +3715,7 @@ func KubeCertificateSigningRequestListV1Beta1_Of(c constructs.IConstruct) cdk8s.
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -3905,7 +3905,7 @@ func NewKubeCertificateSigningRequestV1Beta1(scope constructs.Construct, id *str
 	j := jsiiProxy_KubeCertificateSigningRequestV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -3918,7 +3918,7 @@ func NewKubeCertificateSigningRequestV1Beta1_Override(k KubeCertificateSigningRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -3934,7 +3934,7 @@ func KubeCertificateSigningRequestV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -3954,7 +3954,7 @@ func KubeCertificateSigningRequestV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiO
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCertificateSigningRequestV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -4146,7 +4146,7 @@ func NewKubeClusterRole(scope constructs.Construct, id *string, props *KubeClust
 	j := jsiiProxy_KubeClusterRole{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRole",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -4159,7 +4159,7 @@ func NewKubeClusterRole_Override(k KubeClusterRole, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRole",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -4175,7 +4175,7 @@ func KubeClusterRole_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRole",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -4195,7 +4195,7 @@ func KubeClusterRole_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRole",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -4382,7 +4382,7 @@ func NewKubeClusterRoleBinding(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeClusterRoleBinding{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBinding",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -4395,7 +4395,7 @@ func NewKubeClusterRoleBinding_Override(k KubeClusterRoleBinding, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBinding",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -4411,7 +4411,7 @@ func KubeClusterRoleBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -4431,7 +4431,7 @@ func KubeClusterRoleBinding_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBinding",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -4616,7 +4616,7 @@ func NewKubeClusterRoleBindingList(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeClusterRoleBindingList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -4629,7 +4629,7 @@ func NewKubeClusterRoleBindingList_Override(k KubeClusterRoleBindingList, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -4645,7 +4645,7 @@ func KubeClusterRoleBindingList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -4665,7 +4665,7 @@ func KubeClusterRoleBindingList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -4860,7 +4860,7 @@ func NewKubeClusterRoleBindingListV1Alpha1(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeClusterRoleBindingListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -4873,7 +4873,7 @@ func NewKubeClusterRoleBindingListV1Alpha1_Override(k KubeClusterRoleBindingList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -4889,7 +4889,7 @@ func KubeClusterRoleBindingListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -4909,7 +4909,7 @@ func KubeClusterRoleBindingListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -5106,7 +5106,7 @@ func NewKubeClusterRoleBindingListV1Beta1(scope constructs.Construct, id *string
 	j := jsiiProxy_KubeClusterRoleBindingListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -5119,7 +5119,7 @@ func NewKubeClusterRoleBindingListV1Beta1_Override(k KubeClusterRoleBindingListV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -5135,7 +5135,7 @@ func KubeClusterRoleBindingListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -5155,7 +5155,7 @@ func KubeClusterRoleBindingListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObje
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -5366,7 +5366,7 @@ func NewKubeClusterRoleBindingV1Alpha1(scope constructs.Construct, id *string, p
 	j := jsiiProxy_KubeClusterRoleBindingV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -5379,7 +5379,7 @@ func NewKubeClusterRoleBindingV1Alpha1_Override(k KubeClusterRoleBindingV1Alpha1
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -5395,7 +5395,7 @@ func KubeClusterRoleBindingV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -5415,7 +5415,7 @@ func KubeClusterRoleBindingV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject 
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -5616,7 +5616,7 @@ func NewKubeClusterRoleBindingV1Beta1(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubeClusterRoleBindingV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -5629,7 +5629,7 @@ func NewKubeClusterRoleBindingV1Beta1_Override(k KubeClusterRoleBindingV1Beta1, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -5645,7 +5645,7 @@ func KubeClusterRoleBindingV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -5665,7 +5665,7 @@ func KubeClusterRoleBindingV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleBindingV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -5864,7 +5864,7 @@ func NewKubeClusterRoleList(scope constructs.Construct, id *string, props *KubeC
 	j := jsiiProxy_KubeClusterRoleList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -5877,7 +5877,7 @@ func NewKubeClusterRoleList_Override(k KubeClusterRoleList, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -5893,7 +5893,7 @@ func KubeClusterRoleList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -5913,7 +5913,7 @@ func KubeClusterRoleList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -6108,7 +6108,7 @@ func NewKubeClusterRoleListV1Alpha1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeClusterRoleListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -6121,7 +6121,7 @@ func NewKubeClusterRoleListV1Alpha1_Override(k KubeClusterRoleListV1Alpha1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -6137,7 +6137,7 @@ func KubeClusterRoleListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -6157,7 +6157,7 @@ func KubeClusterRoleListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -6354,7 +6354,7 @@ func NewKubeClusterRoleListV1Beta1(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeClusterRoleListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -6367,7 +6367,7 @@ func NewKubeClusterRoleListV1Beta1_Override(k KubeClusterRoleListV1Beta1, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -6383,7 +6383,7 @@ func KubeClusterRoleListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -6403,7 +6403,7 @@ func KubeClusterRoleListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -6612,7 +6612,7 @@ func NewKubeClusterRoleV1Alpha1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeClusterRoleV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -6625,7 +6625,7 @@ func NewKubeClusterRoleV1Alpha1_Override(k KubeClusterRoleV1Alpha1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -6641,7 +6641,7 @@ func KubeClusterRoleV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -6661,7 +6661,7 @@ func KubeClusterRoleV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -6862,7 +6862,7 @@ func NewKubeClusterRoleV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeClusterRoleV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -6875,7 +6875,7 @@ func NewKubeClusterRoleV1Beta1_Override(k KubeClusterRoleV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -6891,7 +6891,7 @@ func KubeClusterRoleV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -6911,7 +6911,7 @@ func KubeClusterRoleV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeClusterRoleV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -7110,7 +7110,7 @@ func NewKubeComponentStatus(scope constructs.Construct, id *string, props *KubeC
 	j := jsiiProxy_KubeComponentStatus{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatus",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -7123,7 +7123,7 @@ func NewKubeComponentStatus_Override(k KubeComponentStatus, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatus",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -7139,7 +7139,7 @@ func KubeComponentStatus_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatus",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -7159,7 +7159,7 @@ func KubeComponentStatus_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatus",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -7344,7 +7344,7 @@ func NewKubeComponentStatusList(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeComponentStatusList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatusList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -7357,7 +7357,7 @@ func NewKubeComponentStatusList_Override(k KubeComponentStatusList, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatusList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -7373,7 +7373,7 @@ func KubeComponentStatusList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatusList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -7393,7 +7393,7 @@ func KubeComponentStatusList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeComponentStatusList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -7598,7 +7598,7 @@ func NewKubeConfigMap(scope constructs.Construct, id *string, props *KubeConfigM
 	j := jsiiProxy_KubeConfigMap{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMap",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -7611,7 +7611,7 @@ func NewKubeConfigMap_Override(k KubeConfigMap, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMap",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -7627,7 +7627,7 @@ func KubeConfigMap_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMap",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -7647,7 +7647,7 @@ func KubeConfigMap_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMap",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -7832,7 +7832,7 @@ func NewKubeConfigMapList(scope constructs.Construct, id *string, props *KubeCon
 	j := jsiiProxy_KubeConfigMapList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMapList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -7845,7 +7845,7 @@ func NewKubeConfigMapList_Override(k KubeConfigMapList, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMapList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -7861,7 +7861,7 @@ func KubeConfigMapList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMapList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -7881,7 +7881,7 @@ func KubeConfigMapList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeConfigMapList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -8092,7 +8092,7 @@ func NewKubeControllerRevision(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeControllerRevision{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevision",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -8105,7 +8105,7 @@ func NewKubeControllerRevision_Override(k KubeControllerRevision, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevision",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -8121,7 +8121,7 @@ func KubeControllerRevision_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevision",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -8141,7 +8141,7 @@ func KubeControllerRevision_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevision",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -8326,7 +8326,7 @@ func NewKubeControllerRevisionList(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeControllerRevisionList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -8339,7 +8339,7 @@ func NewKubeControllerRevisionList_Override(k KubeControllerRevisionList, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -8355,7 +8355,7 @@ func KubeControllerRevisionList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -8375,7 +8375,7 @@ func KubeControllerRevisionList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -8568,7 +8568,7 @@ func NewKubeControllerRevisionListV1Beta1(scope constructs.Construct, id *string
 	j := jsiiProxy_KubeControllerRevisionListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -8581,7 +8581,7 @@ func NewKubeControllerRevisionListV1Beta1_Override(k KubeControllerRevisionListV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -8597,7 +8597,7 @@ func KubeControllerRevisionListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -8617,7 +8617,7 @@ func KubeControllerRevisionListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObje
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -8810,7 +8810,7 @@ func NewKubeControllerRevisionListV1Beta2(scope constructs.Construct, id *string
 	j := jsiiProxy_KubeControllerRevisionListV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -8823,7 +8823,7 @@ func NewKubeControllerRevisionListV1Beta2_Override(k KubeControllerRevisionListV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -8839,7 +8839,7 @@ func KubeControllerRevisionListV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -8859,7 +8859,7 @@ func KubeControllerRevisionListV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObje
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionListV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -9068,7 +9068,7 @@ func NewKubeControllerRevisionV1Beta1(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubeControllerRevisionV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -9081,7 +9081,7 @@ func NewKubeControllerRevisionV1Beta1_Override(k KubeControllerRevisionV1Beta1, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -9097,7 +9097,7 @@ func KubeControllerRevisionV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -9117,7 +9117,7 @@ func KubeControllerRevisionV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -9318,7 +9318,7 @@ func NewKubeControllerRevisionV1Beta2(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubeControllerRevisionV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -9331,7 +9331,7 @@ func NewKubeControllerRevisionV1Beta2_Override(k KubeControllerRevisionV1Beta2, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -9347,7 +9347,7 @@ func KubeControllerRevisionV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -9367,7 +9367,7 @@ func KubeControllerRevisionV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeControllerRevisionV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeControllerRevisionV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -9566,7 +9566,7 @@ func NewKubeCronJobListV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeCronJobListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -9579,7 +9579,7 @@ func NewKubeCronJobListV1Beta1_Override(k KubeCronJobListV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -9595,7 +9595,7 @@ func KubeCronJobListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -9615,7 +9615,7 @@ func KubeCronJobListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -9810,7 +9810,7 @@ func NewKubeCronJobListV2Alpha1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeCronJobListV2Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV2Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -9823,7 +9823,7 @@ func NewKubeCronJobListV2Alpha1_Override(k KubeCronJobListV2Alpha1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV2Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -9839,7 +9839,7 @@ func KubeCronJobListV2Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV2Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -9859,7 +9859,7 @@ func KubeCronJobListV2Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobListV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobListV2Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -10054,7 +10054,7 @@ func NewKubeCronJobV1Beta1(scope constructs.Construct, id *string, props *KubeCr
 	j := jsiiProxy_KubeCronJobV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -10067,7 +10067,7 @@ func NewKubeCronJobV1Beta1_Override(k KubeCronJobV1Beta1, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -10083,7 +10083,7 @@ func KubeCronJobV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -10103,7 +10103,7 @@ func KubeCronJobV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -10300,7 +10300,7 @@ func NewKubeCronJobV2Alpha1(scope constructs.Construct, id *string, props *KubeC
 	j := jsiiProxy_KubeCronJobV2Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV2Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -10313,7 +10313,7 @@ func NewKubeCronJobV2Alpha1_Override(k KubeCronJobV2Alpha1, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV2Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -10329,7 +10329,7 @@ func KubeCronJobV2Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV2Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -10349,7 +10349,7 @@ func KubeCronJobV2Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCronJobV2Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCronJobV2Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -10546,7 +10546,7 @@ func NewKubeCsiDriverListV1Beta1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeCsiDriverListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -10559,7 +10559,7 @@ func NewKubeCsiDriverListV1Beta1_Override(k KubeCsiDriverListV1Beta1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -10575,7 +10575,7 @@ func KubeCsiDriverListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -10595,7 +10595,7 @@ func KubeCsiDriverListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -10790,7 +10790,7 @@ func NewKubeCsiDriverV1Beta1(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeCsiDriverV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -10803,7 +10803,7 @@ func NewKubeCsiDriverV1Beta1_Override(k KubeCsiDriverV1Beta1, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -10819,7 +10819,7 @@ func KubeCsiDriverV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -10839,7 +10839,7 @@ func KubeCsiDriverV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiDriverV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -11038,7 +11038,7 @@ func NewKubeCsiNode(scope constructs.Construct, id *string, props *KubeCsiNodePr
 	j := jsiiProxy_KubeCsiNode{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNode",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -11051,7 +11051,7 @@ func NewKubeCsiNode_Override(k KubeCsiNode, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNode",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -11067,7 +11067,7 @@ func KubeCsiNode_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNode",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -11087,7 +11087,7 @@ func KubeCsiNode_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNode",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -11272,7 +11272,7 @@ func NewKubeCsiNodeList(scope constructs.Construct, id *string, props *KubeCsiNo
 	j := jsiiProxy_KubeCsiNodeList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -11285,7 +11285,7 @@ func NewKubeCsiNodeList_Override(k KubeCsiNodeList, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -11301,7 +11301,7 @@ func KubeCsiNodeList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -11321,7 +11321,7 @@ func KubeCsiNodeList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -11514,7 +11514,7 @@ func NewKubeCsiNodeListV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeCsiNodeListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -11527,7 +11527,7 @@ func NewKubeCsiNodeListV1Beta1_Override(k KubeCsiNodeListV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -11543,7 +11543,7 @@ func KubeCsiNodeListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -11563,7 +11563,7 @@ func KubeCsiNodeListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -11768,7 +11768,7 @@ func NewKubeCsiNodeV1Beta1(scope constructs.Construct, id *string, props *KubeCs
 	j := jsiiProxy_KubeCsiNodeV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -11781,7 +11781,7 @@ func NewKubeCsiNodeV1Beta1_Override(k KubeCsiNodeV1Beta1, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -11797,7 +11797,7 @@ func KubeCsiNodeV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -11817,7 +11817,7 @@ func KubeCsiNodeV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCsiNodeV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -12014,7 +12014,7 @@ func NewKubeCustomResourceDefinition(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeCustomResourceDefinition{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinition",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -12027,7 +12027,7 @@ func NewKubeCustomResourceDefinition_Override(k KubeCustomResourceDefinition, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinition",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -12043,7 +12043,7 @@ func KubeCustomResourceDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -12063,7 +12063,7 @@ func KubeCustomResourceDefinition_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinition",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -12248,7 +12248,7 @@ func NewKubeCustomResourceDefinitionList(scope constructs.Construct, id *string,
 	j := jsiiProxy_KubeCustomResourceDefinitionList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -12261,7 +12261,7 @@ func NewKubeCustomResourceDefinitionList_Override(k KubeCustomResourceDefinition
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -12277,7 +12277,7 @@ func KubeCustomResourceDefinitionList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -12297,7 +12297,7 @@ func KubeCustomResourceDefinitionList_Of(c constructs.IConstruct) cdk8s.ApiObjec
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -12489,7 +12489,7 @@ func NewKubeCustomResourceDefinitionListV1Beta1(scope constructs.Construct, id *
 	j := jsiiProxy_KubeCustomResourceDefinitionListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -12502,7 +12502,7 @@ func NewKubeCustomResourceDefinitionListV1Beta1_Override(k KubeCustomResourceDef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -12518,7 +12518,7 @@ func KubeCustomResourceDefinitionListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -12538,7 +12538,7 @@ func KubeCustomResourceDefinitionListV1Beta1_Of(c constructs.IConstruct) cdk8s.A
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -12741,7 +12741,7 @@ func NewKubeCustomResourceDefinitionV1Beta1(scope constructs.Construct, id *stri
 	j := jsiiProxy_KubeCustomResourceDefinitionV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -12754,7 +12754,7 @@ func NewKubeCustomResourceDefinitionV1Beta1_Override(k KubeCustomResourceDefinit
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -12770,7 +12770,7 @@ func KubeCustomResourceDefinitionV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -12790,7 +12790,7 @@ func KubeCustomResourceDefinitionV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiOb
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeCustomResourceDefinitionV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -12984,7 +12984,7 @@ func NewKubeDaemonSet(scope constructs.Construct, id *string, props *KubeDaemonS
 	j := jsiiProxy_KubeDaemonSet{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSet",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -12997,7 +12997,7 @@ func NewKubeDaemonSet_Override(k KubeDaemonSet, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSet",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -13013,7 +13013,7 @@ func KubeDaemonSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -13033,7 +13033,7 @@ func KubeDaemonSet_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSet",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -13218,7 +13218,7 @@ func NewKubeDaemonSetList(scope constructs.Construct, id *string, props *KubeDae
 	j := jsiiProxy_KubeDaemonSetList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -13231,7 +13231,7 @@ func NewKubeDaemonSetList_Override(k KubeDaemonSetList, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -13247,7 +13247,7 @@ func KubeDaemonSetList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -13267,7 +13267,7 @@ func KubeDaemonSetList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -13462,7 +13462,7 @@ func NewKubeDaemonSetListV1Beta1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeDaemonSetListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -13475,7 +13475,7 @@ func NewKubeDaemonSetListV1Beta1_Override(k KubeDaemonSetListV1Beta1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -13491,7 +13491,7 @@ func KubeDaemonSetListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -13511,7 +13511,7 @@ func KubeDaemonSetListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -13706,7 +13706,7 @@ func NewKubeDaemonSetListV1Beta2(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeDaemonSetListV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -13719,7 +13719,7 @@ func NewKubeDaemonSetListV1Beta2_Override(k KubeDaemonSetListV1Beta2, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -13735,7 +13735,7 @@ func KubeDaemonSetListV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -13755,7 +13755,7 @@ func KubeDaemonSetListV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetListV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -13964,7 +13964,7 @@ func NewKubeDaemonSetV1Beta1(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeDaemonSetV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -13977,7 +13977,7 @@ func NewKubeDaemonSetV1Beta1_Override(k KubeDaemonSetV1Beta1, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -13993,7 +13993,7 @@ func KubeDaemonSetV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -14013,7 +14013,7 @@ func KubeDaemonSetV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -14214,7 +14214,7 @@ func NewKubeDaemonSetV1Beta2(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeDaemonSetV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -14227,7 +14227,7 @@ func NewKubeDaemonSetV1Beta2_Override(k KubeDaemonSetV1Beta2, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -14243,7 +14243,7 @@ func KubeDaemonSetV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -14263,7 +14263,7 @@ func KubeDaemonSetV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDaemonSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDaemonSetV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -14462,7 +14462,7 @@ func NewKubeDeployment(scope constructs.Construct, id *string, props *KubeDeploy
 	j := jsiiProxy_KubeDeployment{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeployment",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -14475,7 +14475,7 @@ func NewKubeDeployment_Override(k KubeDeployment, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeployment",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -14491,7 +14491,7 @@ func KubeDeployment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeployment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -14511,7 +14511,7 @@ func KubeDeployment_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeployment",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -14696,7 +14696,7 @@ func NewKubeDeploymentList(scope constructs.Construct, id *string, props *KubeDe
 	j := jsiiProxy_KubeDeploymentList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -14709,7 +14709,7 @@ func NewKubeDeploymentList_Override(k KubeDeploymentList, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -14725,7 +14725,7 @@ func KubeDeploymentList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -14745,7 +14745,7 @@ func KubeDeploymentList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -14938,7 +14938,7 @@ func NewKubeDeploymentListV1Beta1(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeDeploymentListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -14951,7 +14951,7 @@ func NewKubeDeploymentListV1Beta1_Override(k KubeDeploymentListV1Beta1, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -14967,7 +14967,7 @@ func KubeDeploymentListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -14987,7 +14987,7 @@ func KubeDeploymentListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -15180,7 +15180,7 @@ func NewKubeDeploymentListV1Beta2(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeDeploymentListV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -15193,7 +15193,7 @@ func NewKubeDeploymentListV1Beta2_Override(k KubeDeploymentListV1Beta2, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -15209,7 +15209,7 @@ func KubeDeploymentListV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -15229,7 +15229,7 @@ func KubeDeploymentListV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentListV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -15432,7 +15432,7 @@ func NewKubeDeploymentV1Beta1(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeDeploymentV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -15445,7 +15445,7 @@ func NewKubeDeploymentV1Beta1_Override(k KubeDeploymentV1Beta1, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -15461,7 +15461,7 @@ func KubeDeploymentV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -15481,7 +15481,7 @@ func KubeDeploymentV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -15678,7 +15678,7 @@ func NewKubeDeploymentV1Beta2(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeDeploymentV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -15691,7 +15691,7 @@ func NewKubeDeploymentV1Beta2_Override(k KubeDeploymentV1Beta2, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -15707,7 +15707,7 @@ func KubeDeploymentV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -15727,7 +15727,7 @@ func KubeDeploymentV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeDeploymentV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeDeploymentV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -15922,7 +15922,7 @@ func NewKubeEndpointSliceListV1Beta1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeEndpointSliceListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -15935,7 +15935,7 @@ func NewKubeEndpointSliceListV1Beta1_Override(k KubeEndpointSliceListV1Beta1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -15951,7 +15951,7 @@ func KubeEndpointSliceListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -15971,7 +15971,7 @@ func KubeEndpointSliceListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -16166,7 +16166,7 @@ func NewKubeEndpointSliceV1Beta1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeEndpointSliceV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -16179,7 +16179,7 @@ func NewKubeEndpointSliceV1Beta1_Override(k KubeEndpointSliceV1Beta1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -16195,7 +16195,7 @@ func KubeEndpointSliceV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -16215,7 +16215,7 @@ func KubeEndpointSliceV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointSliceV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -16433,7 +16433,7 @@ func NewKubeEndpoints(scope constructs.Construct, id *string, props *KubeEndpoin
 	j := jsiiProxy_KubeEndpoints{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpoints",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -16446,7 +16446,7 @@ func NewKubeEndpoints_Override(k KubeEndpoints, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpoints",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -16462,7 +16462,7 @@ func KubeEndpoints_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpoints",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -16482,7 +16482,7 @@ func KubeEndpoints_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpoints",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -16667,7 +16667,7 @@ func NewKubeEndpointsList(scope constructs.Construct, id *string, props *KubeEnd
 	j := jsiiProxy_KubeEndpointsList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointsList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -16680,7 +16680,7 @@ func NewKubeEndpointsList_Override(k KubeEndpointsList, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointsList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -16696,7 +16696,7 @@ func KubeEndpointsList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointsList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -16716,7 +16716,7 @@ func KubeEndpointsList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEndpointsList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -16936,7 +16936,7 @@ func NewKubeEvent(scope constructs.Construct, id *string, props *KubeEventProps)
 	j := jsiiProxy_KubeEvent{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvent",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -16949,7 +16949,7 @@ func NewKubeEvent_Override(k KubeEvent, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvent",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -16965,7 +16965,7 @@ func KubeEvent_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvent",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -16985,7 +16985,7 @@ func KubeEvent_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvent",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -17170,7 +17170,7 @@ func NewKubeEventList(scope constructs.Construct, id *string, props *KubeEventLi
 	j := jsiiProxy_KubeEventList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -17183,7 +17183,7 @@ func NewKubeEventList_Override(k KubeEventList, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -17199,7 +17199,7 @@ func KubeEventList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -17219,7 +17219,7 @@ func KubeEventList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -17414,7 +17414,7 @@ func NewKubeEventListV1Beta1(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeEventListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -17427,7 +17427,7 @@ func NewKubeEventListV1Beta1_Override(k KubeEventListV1Beta1, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -17443,7 +17443,7 @@ func KubeEventListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -17463,7 +17463,7 @@ func KubeEventListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -17700,7 +17700,7 @@ func NewKubeEventV1Beta1(scope constructs.Construct, id *string, props *KubeEven
 	j := jsiiProxy_KubeEventV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -17713,7 +17713,7 @@ func NewKubeEventV1Beta1_Override(k KubeEventV1Beta1, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -17729,7 +17729,7 @@ func KubeEventV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -17749,7 +17749,7 @@ func KubeEventV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEventV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -17979,7 +17979,7 @@ func NewKubeEvictionV1Beta1(scope constructs.Construct, id *string, props *KubeE
 	j := jsiiProxy_KubeEvictionV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvictionV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -17992,7 +17992,7 @@ func NewKubeEvictionV1Beta1_Override(k KubeEvictionV1Beta1, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvictionV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -18008,7 +18008,7 @@ func KubeEvictionV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvictionV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -18028,7 +18028,7 @@ func KubeEvictionV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeEvictionV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -18223,7 +18223,7 @@ func NewKubeFlowSchemaListV1Alpha1(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeFlowSchemaListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -18236,7 +18236,7 @@ func NewKubeFlowSchemaListV1Alpha1_Override(k KubeFlowSchemaListV1Alpha1, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -18252,7 +18252,7 @@ func KubeFlowSchemaListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -18272,7 +18272,7 @@ func KubeFlowSchemaListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -18469,7 +18469,7 @@ func NewKubeFlowSchemaV1Alpha1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeFlowSchemaV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -18482,7 +18482,7 @@ func NewKubeFlowSchemaV1Alpha1_Override(k KubeFlowSchemaV1Alpha1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -18498,7 +18498,7 @@ func KubeFlowSchemaV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -18518,7 +18518,7 @@ func KubeFlowSchemaV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeFlowSchemaV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeFlowSchemaV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -18717,7 +18717,7 @@ func NewKubeHorizontalPodAutoscaler(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeHorizontalPodAutoscaler{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscaler",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -18730,7 +18730,7 @@ func NewKubeHorizontalPodAutoscaler_Override(k KubeHorizontalPodAutoscaler, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscaler",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -18746,7 +18746,7 @@ func KubeHorizontalPodAutoscaler_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscaler",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -18766,7 +18766,7 @@ func KubeHorizontalPodAutoscaler_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscaler",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -18951,7 +18951,7 @@ func NewKubeHorizontalPodAutoscalerList(scope constructs.Construct, id *string, 
 	j := jsiiProxy_KubeHorizontalPodAutoscalerList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -18964,7 +18964,7 @@ func NewKubeHorizontalPodAutoscalerList_Override(k KubeHorizontalPodAutoscalerLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -18980,7 +18980,7 @@ func KubeHorizontalPodAutoscalerList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -19000,7 +19000,7 @@ func KubeHorizontalPodAutoscalerList_Of(c constructs.IConstruct) cdk8s.ApiObject
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -19193,7 +19193,7 @@ func NewKubeHorizontalPodAutoscalerListV2Beta1(scope constructs.Construct, id *s
 	j := jsiiProxy_KubeHorizontalPodAutoscalerListV2Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -19206,7 +19206,7 @@ func NewKubeHorizontalPodAutoscalerListV2Beta1_Override(k KubeHorizontalPodAutos
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -19222,7 +19222,7 @@ func KubeHorizontalPodAutoscalerListV2Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -19242,7 +19242,7 @@ func KubeHorizontalPodAutoscalerListV2Beta1_Of(c constructs.IConstruct) cdk8s.Ap
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -19435,7 +19435,7 @@ func NewKubeHorizontalPodAutoscalerListV2Beta2(scope constructs.Construct, id *s
 	j := jsiiProxy_KubeHorizontalPodAutoscalerListV2Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -19448,7 +19448,7 @@ func NewKubeHorizontalPodAutoscalerListV2Beta2_Override(k KubeHorizontalPodAutos
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -19464,7 +19464,7 @@ func KubeHorizontalPodAutoscalerListV2Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -19484,7 +19484,7 @@ func KubeHorizontalPodAutoscalerListV2Beta2_Of(c constructs.IConstruct) cdk8s.Ap
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -19689,7 +19689,7 @@ func NewKubeHorizontalPodAutoscalerV2Beta1(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeHorizontalPodAutoscalerV2Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -19702,7 +19702,7 @@ func NewKubeHorizontalPodAutoscalerV2Beta1_Override(k KubeHorizontalPodAutoscale
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -19718,7 +19718,7 @@ func KubeHorizontalPodAutoscalerV2Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -19738,7 +19738,7 @@ func KubeHorizontalPodAutoscalerV2Beta1_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -19935,7 +19935,7 @@ func NewKubeHorizontalPodAutoscalerV2Beta2(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeHorizontalPodAutoscalerV2Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -19948,7 +19948,7 @@ func NewKubeHorizontalPodAutoscalerV2Beta2_Override(k KubeHorizontalPodAutoscale
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -19964,7 +19964,7 @@ func KubeHorizontalPodAutoscalerV2Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -19984,7 +19984,7 @@ func KubeHorizontalPodAutoscalerV2Beta2_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -20181,7 +20181,7 @@ func NewKubeIngressListV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeIngressListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -20194,7 +20194,7 @@ func NewKubeIngressListV1Beta1_Override(k KubeIngressListV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -20210,7 +20210,7 @@ func KubeIngressListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -20230,7 +20230,7 @@ func KubeIngressListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -20427,7 +20427,7 @@ func NewKubeIngressV1Beta1(scope constructs.Construct, id *string, props *KubeIn
 	j := jsiiProxy_KubeIngressV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -20440,7 +20440,7 @@ func NewKubeIngressV1Beta1_Override(k KubeIngressV1Beta1, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -20456,7 +20456,7 @@ func KubeIngressV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -20476,7 +20476,7 @@ func KubeIngressV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeIngressV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -20675,7 +20675,7 @@ func NewKubeJob(scope constructs.Construct, id *string, props *KubeJobProps) Kub
 	j := jsiiProxy_KubeJob{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJob",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJob",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -20688,7 +20688,7 @@ func NewKubeJob_Override(k KubeJob, scope constructs.Construct, id *string, prop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJob",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJob",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -20704,7 +20704,7 @@ func KubeJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJob",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -20724,7 +20724,7 @@ func KubeJob_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJob",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJob",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -20909,7 +20909,7 @@ func NewKubeJobList(scope constructs.Construct, id *string, props *KubeJobListPr
 	j := jsiiProxy_KubeJobList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJobList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -20922,7 +20922,7 @@ func NewKubeJobList_Override(k KubeJobList, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJobList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -20938,7 +20938,7 @@ func KubeJobList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJobList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -20958,7 +20958,7 @@ func KubeJobList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeJobList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -21165,7 +21165,7 @@ func NewKubeLease(scope constructs.Construct, id *string, props *KubeLeaseProps)
 	j := jsiiProxy_KubeLease{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLease",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLease",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -21178,7 +21178,7 @@ func NewKubeLease_Override(k KubeLease, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLease",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLease",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -21194,7 +21194,7 @@ func KubeLease_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLease",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLease",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -21214,7 +21214,7 @@ func KubeLease_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLease",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLease",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -21399,7 +21399,7 @@ func NewKubeLeaseList(scope constructs.Construct, id *string, props *KubeLeaseLi
 	j := jsiiProxy_KubeLeaseList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -21412,7 +21412,7 @@ func NewKubeLeaseList_Override(k KubeLeaseList, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -21428,7 +21428,7 @@ func KubeLeaseList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -21448,7 +21448,7 @@ func KubeLeaseList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -21643,7 +21643,7 @@ func NewKubeLeaseListV1Beta1(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeLeaseListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -21656,7 +21656,7 @@ func NewKubeLeaseListV1Beta1_Override(k KubeLeaseListV1Beta1, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -21672,7 +21672,7 @@ func KubeLeaseListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -21692,7 +21692,7 @@ func KubeLeaseListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -21897,7 +21897,7 @@ func NewKubeLeaseV1Beta1(scope constructs.Construct, id *string, props *KubeLeas
 	j := jsiiProxy_KubeLeaseV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -21910,7 +21910,7 @@ func NewKubeLeaseV1Beta1_Override(k KubeLeaseV1Beta1, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -21926,7 +21926,7 @@ func KubeLeaseV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -21946,7 +21946,7 @@ func KubeLeaseV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLeaseV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -22141,7 +22141,7 @@ func NewKubeLimitRange(scope constructs.Construct, id *string, props *KubeLimitR
 	j := jsiiProxy_KubeLimitRange{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRange",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -22154,7 +22154,7 @@ func NewKubeLimitRange_Override(k KubeLimitRange, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRange",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -22170,7 +22170,7 @@ func KubeLimitRange_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRange",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -22190,7 +22190,7 @@ func KubeLimitRange_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRange",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -22375,7 +22375,7 @@ func NewKubeLimitRangeList(scope constructs.Construct, id *string, props *KubeLi
 	j := jsiiProxy_KubeLimitRangeList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRangeList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -22388,7 +22388,7 @@ func NewKubeLimitRangeList_Override(k KubeLimitRangeList, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRangeList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -22404,7 +22404,7 @@ func KubeLimitRangeList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRangeList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -22424,7 +22424,7 @@ func KubeLimitRangeList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLimitRangeList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -22635,7 +22635,7 @@ func NewKubeLocalSubjectAccessReview(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeLocalSubjectAccessReview{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -22648,7 +22648,7 @@ func NewKubeLocalSubjectAccessReview_Override(k KubeLocalSubjectAccessReview, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -22664,7 +22664,7 @@ func KubeLocalSubjectAccessReview_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReview",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -22684,7 +22684,7 @@ func KubeLocalSubjectAccessReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -22882,7 +22882,7 @@ func NewKubeLocalSubjectAccessReviewV1Beta1(scope constructs.Construct, id *stri
 	j := jsiiProxy_KubeLocalSubjectAccessReviewV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -22895,7 +22895,7 @@ func NewKubeLocalSubjectAccessReviewV1Beta1_Override(k KubeLocalSubjectAccessRev
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -22911,7 +22911,7 @@ func KubeLocalSubjectAccessReviewV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -22931,7 +22931,7 @@ func KubeLocalSubjectAccessReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiOb
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -23127,7 +23127,7 @@ func NewKubeMutatingWebhookConfiguration(scope constructs.Construct, id *string,
 	j := jsiiProxy_KubeMutatingWebhookConfiguration{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfiguration",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -23140,7 +23140,7 @@ func NewKubeMutatingWebhookConfiguration_Override(k KubeMutatingWebhookConfigura
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfiguration",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -23156,7 +23156,7 @@ func KubeMutatingWebhookConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -23176,7 +23176,7 @@ func KubeMutatingWebhookConfiguration_Of(c constructs.IConstruct) cdk8s.ApiObjec
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfiguration",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -23361,7 +23361,7 @@ func NewKubeMutatingWebhookConfigurationList(scope constructs.Construct, id *str
 	j := jsiiProxy_KubeMutatingWebhookConfigurationList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -23374,7 +23374,7 @@ func NewKubeMutatingWebhookConfigurationList_Override(k KubeMutatingWebhookConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -23390,7 +23390,7 @@ func KubeMutatingWebhookConfigurationList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -23410,7 +23410,7 @@ func KubeMutatingWebhookConfigurationList_Of(c constructs.IConstruct) cdk8s.ApiO
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -23605,7 +23605,7 @@ func NewKubeMutatingWebhookConfigurationListV1Beta1(scope constructs.Construct, 
 	j := jsiiProxy_KubeMutatingWebhookConfigurationListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -23618,7 +23618,7 @@ func NewKubeMutatingWebhookConfigurationListV1Beta1_Override(k KubeMutatingWebho
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -23634,7 +23634,7 @@ func KubeMutatingWebhookConfigurationListV1Beta1_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -23654,7 +23654,7 @@ func KubeMutatingWebhookConfigurationListV1Beta1_Of(c constructs.IConstruct) cdk
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -23861,7 +23861,7 @@ func NewKubeMutatingWebhookConfigurationV1Beta1(scope constructs.Construct, id *
 	j := jsiiProxy_KubeMutatingWebhookConfigurationV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -23874,7 +23874,7 @@ func NewKubeMutatingWebhookConfigurationV1Beta1_Override(k KubeMutatingWebhookCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -23890,7 +23890,7 @@ func KubeMutatingWebhookConfigurationV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -23910,7 +23910,7 @@ func KubeMutatingWebhookConfigurationV1Beta1_Of(c constructs.IConstruct) cdk8s.A
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -24109,7 +24109,7 @@ func NewKubeNamespace(scope constructs.Construct, id *string, props *KubeNamespa
 	j := jsiiProxy_KubeNamespace{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespace",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -24122,7 +24122,7 @@ func NewKubeNamespace_Override(k KubeNamespace, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespace",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -24138,7 +24138,7 @@ func KubeNamespace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -24158,7 +24158,7 @@ func KubeNamespace_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespace",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -24343,7 +24343,7 @@ func NewKubeNamespaceList(scope constructs.Construct, id *string, props *KubeNam
 	j := jsiiProxy_KubeNamespaceList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespaceList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -24356,7 +24356,7 @@ func NewKubeNamespaceList_Override(k KubeNamespaceList, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespaceList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -24372,7 +24372,7 @@ func KubeNamespaceList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespaceList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -24392,7 +24392,7 @@ func KubeNamespaceList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNamespaceList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -24603,7 +24603,7 @@ func NewKubeNetworkPolicy(scope constructs.Construct, id *string, props *KubeNet
 	j := jsiiProxy_KubeNetworkPolicy{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicy",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -24616,7 +24616,7 @@ func NewKubeNetworkPolicy_Override(k KubeNetworkPolicy, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicy",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -24632,7 +24632,7 @@ func KubeNetworkPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -24652,7 +24652,7 @@ func KubeNetworkPolicy_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicy",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -24837,7 +24837,7 @@ func NewKubeNetworkPolicyList(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeNetworkPolicyList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -24850,7 +24850,7 @@ func NewKubeNetworkPolicyList_Override(k KubeNetworkPolicyList, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -24866,7 +24866,7 @@ func KubeNetworkPolicyList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -24886,7 +24886,7 @@ func KubeNetworkPolicyList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -25081,7 +25081,7 @@ func NewKubeNetworkPolicyListV1Beta1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeNetworkPolicyListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -25094,7 +25094,7 @@ func NewKubeNetworkPolicyListV1Beta1_Override(k KubeNetworkPolicyListV1Beta1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -25110,7 +25110,7 @@ func KubeNetworkPolicyListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -25130,7 +25130,7 @@ func KubeNetworkPolicyListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -25335,7 +25335,7 @@ func NewKubeNetworkPolicyV1Beta1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeNetworkPolicyV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -25348,7 +25348,7 @@ func NewKubeNetworkPolicyV1Beta1_Override(k KubeNetworkPolicyV1Beta1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -25364,7 +25364,7 @@ func KubeNetworkPolicyV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -25384,7 +25384,7 @@ func KubeNetworkPolicyV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNetworkPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNetworkPolicyV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -25581,7 +25581,7 @@ func NewKubeNode(scope constructs.Construct, id *string, props *KubeNodeProps) K
 	j := jsiiProxy_KubeNode{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNode",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -25594,7 +25594,7 @@ func NewKubeNode_Override(k KubeNode, scope constructs.Construct, id *string, pr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNode",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -25610,7 +25610,7 @@ func KubeNode_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNode",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -25630,7 +25630,7 @@ func KubeNode_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNode",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNode",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -25815,7 +25815,7 @@ func NewKubeNodeList(scope constructs.Construct, id *string, props *KubeNodeList
 	j := jsiiProxy_KubeNodeList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNodeList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -25828,7 +25828,7 @@ func NewKubeNodeList_Override(k KubeNodeList, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNodeList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -25844,7 +25844,7 @@ func KubeNodeList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNodeList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -25864,7 +25864,7 @@ func KubeNodeList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeNodeList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -26075,7 +26075,7 @@ func NewKubePersistentVolume(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubePersistentVolume{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolume",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -26088,7 +26088,7 @@ func NewKubePersistentVolume_Override(k KubePersistentVolume, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolume",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -26104,7 +26104,7 @@ func KubePersistentVolume_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolume",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -26124,7 +26124,7 @@ func KubePersistentVolume_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolume",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -26309,7 +26309,7 @@ func NewKubePersistentVolumeClaim(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubePersistentVolumeClaim{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaim",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -26322,7 +26322,7 @@ func NewKubePersistentVolumeClaim_Override(k KubePersistentVolumeClaim, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaim",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -26338,7 +26338,7 @@ func KubePersistentVolumeClaim_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaim",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -26358,7 +26358,7 @@ func KubePersistentVolumeClaim_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaim",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -26543,7 +26543,7 @@ func NewKubePersistentVolumeClaimList(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubePersistentVolumeClaimList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaimList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -26556,7 +26556,7 @@ func NewKubePersistentVolumeClaimList_Override(k KubePersistentVolumeClaimList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaimList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -26572,7 +26572,7 @@ func KubePersistentVolumeClaimList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaimList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -26592,7 +26592,7 @@ func KubePersistentVolumeClaimList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeClaimList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -26801,7 +26801,7 @@ func NewKubePersistentVolumeList(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubePersistentVolumeList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -26814,7 +26814,7 @@ func NewKubePersistentVolumeList_Override(k KubePersistentVolumeList, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -26830,7 +26830,7 @@ func KubePersistentVolumeList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -26850,7 +26850,7 @@ func KubePersistentVolumeList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePersistentVolumeList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -27063,7 +27063,7 @@ func NewKubePod(scope constructs.Construct, id *string, props *KubePodProps) Kub
 	j := jsiiProxy_KubePod{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePod",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePod",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -27076,7 +27076,7 @@ func NewKubePod_Override(k KubePod, scope constructs.Construct, id *string, prop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePod",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePod",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -27092,7 +27092,7 @@ func KubePod_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePod",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePod",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -27112,7 +27112,7 @@ func KubePod_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePod",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePod",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -27297,7 +27297,7 @@ func NewKubePodDisruptionBudgetListV1Beta1(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubePodDisruptionBudgetListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -27310,7 +27310,7 @@ func NewKubePodDisruptionBudgetListV1Beta1_Override(k KubePodDisruptionBudgetLis
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -27326,7 +27326,7 @@ func KubePodDisruptionBudgetListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -27346,7 +27346,7 @@ func KubePodDisruptionBudgetListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -27537,7 +27537,7 @@ func NewKubePodDisruptionBudgetV1Beta1(scope constructs.Construct, id *string, p
 	j := jsiiProxy_KubePodDisruptionBudgetV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -27550,7 +27550,7 @@ func NewKubePodDisruptionBudgetV1Beta1_Override(k KubePodDisruptionBudgetV1Beta1
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -27566,7 +27566,7 @@ func KubePodDisruptionBudgetV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -27586,7 +27586,7 @@ func KubePodDisruptionBudgetV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject 
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodDisruptionBudgetV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -27778,7 +27778,7 @@ func NewKubePodList(scope constructs.Construct, id *string, props *KubePodListPr
 	j := jsiiProxy_KubePodList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -27791,7 +27791,7 @@ func NewKubePodList_Override(k KubePodList, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -27807,7 +27807,7 @@ func KubePodList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -27827,7 +27827,7 @@ func KubePodList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -28024,7 +28024,7 @@ func NewKubePodPresetListV1Alpha1(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubePodPresetListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -28037,7 +28037,7 @@ func NewKubePodPresetListV1Alpha1_Override(k KubePodPresetListV1Alpha1, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -28053,7 +28053,7 @@ func KubePodPresetListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -28073,7 +28073,7 @@ func KubePodPresetListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -28268,7 +28268,7 @@ func NewKubePodPresetV1Alpha1(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubePodPresetV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -28281,7 +28281,7 @@ func NewKubePodPresetV1Alpha1_Override(k KubePodPresetV1Alpha1, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -28297,7 +28297,7 @@ func KubePodPresetV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -28317,7 +28317,7 @@ func KubePodPresetV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodPresetV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodPresetV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -28522,7 +28522,7 @@ func NewKubePodSecurityPolicyListV1Beta1(scope constructs.Construct, id *string,
 	j := jsiiProxy_KubePodSecurityPolicyListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -28535,7 +28535,7 @@ func NewKubePodSecurityPolicyListV1Beta1_Override(k KubePodSecurityPolicyListV1B
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -28551,7 +28551,7 @@ func KubePodSecurityPolicyListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -28571,7 +28571,7 @@ func KubePodSecurityPolicyListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObjec
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -28766,7 +28766,7 @@ func NewKubePodSecurityPolicyV1Beta1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubePodSecurityPolicyV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -28779,7 +28779,7 @@ func NewKubePodSecurityPolicyV1Beta1_Override(k KubePodSecurityPolicyV1Beta1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -28795,7 +28795,7 @@ func KubePodSecurityPolicyV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -28815,7 +28815,7 @@ func KubePodSecurityPolicyV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodSecurityPolicyV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -29010,7 +29010,7 @@ func NewKubePodTemplate(scope constructs.Construct, id *string, props *KubePodTe
 	j := jsiiProxy_KubePodTemplate{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplate",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -29023,7 +29023,7 @@ func NewKubePodTemplate_Override(k KubePodTemplate, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplate",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -29039,7 +29039,7 @@ func KubePodTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -29059,7 +29059,7 @@ func KubePodTemplate_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplate",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -29244,7 +29244,7 @@ func NewKubePodTemplateList(scope constructs.Construct, id *string, props *KubeP
 	j := jsiiProxy_KubePodTemplateList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplateList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -29257,7 +29257,7 @@ func NewKubePodTemplateList_Override(k KubePodTemplateList, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplateList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -29273,7 +29273,7 @@ func KubePodTemplateList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplateList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -29293,7 +29293,7 @@ func KubePodTemplateList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePodTemplateList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -29502,7 +29502,7 @@ func NewKubePriorityClass(scope constructs.Construct, id *string, props *KubePri
 	j := jsiiProxy_KubePriorityClass{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClass",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -29515,7 +29515,7 @@ func NewKubePriorityClass_Override(k KubePriorityClass, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClass",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -29531,7 +29531,7 @@ func KubePriorityClass_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClass",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -29551,7 +29551,7 @@ func KubePriorityClass_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClass",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -29736,7 +29736,7 @@ func NewKubePriorityClassList(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubePriorityClassList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -29749,7 +29749,7 @@ func NewKubePriorityClassList_Override(k KubePriorityClassList, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -29765,7 +29765,7 @@ func KubePriorityClassList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -29785,7 +29785,7 @@ func KubePriorityClassList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -29978,7 +29978,7 @@ func NewKubePriorityClassListV1Alpha1(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubePriorityClassListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -29991,7 +29991,7 @@ func NewKubePriorityClassListV1Alpha1_Override(k KubePriorityClassListV1Alpha1, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -30007,7 +30007,7 @@ func KubePriorityClassListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -30027,7 +30027,7 @@ func KubePriorityClassListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -30220,7 +30220,7 @@ func NewKubePriorityClassListV1Beta1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubePriorityClassListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -30233,7 +30233,7 @@ func NewKubePriorityClassListV1Beta1_Override(k KubePriorityClassListV1Beta1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -30249,7 +30249,7 @@ func KubePriorityClassListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -30269,7 +30269,7 @@ func KubePriorityClassListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -30486,7 +30486,7 @@ func NewKubePriorityClassV1Alpha1(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubePriorityClassV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -30499,7 +30499,7 @@ func NewKubePriorityClassV1Alpha1_Override(k KubePriorityClassV1Alpha1, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -30515,7 +30515,7 @@ func KubePriorityClassV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -30535,7 +30535,7 @@ func KubePriorityClassV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -30742,7 +30742,7 @@ func NewKubePriorityClassV1Beta1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubePriorityClassV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -30755,7 +30755,7 @@ func NewKubePriorityClassV1Beta1_Override(k KubePriorityClassV1Beta1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -30771,7 +30771,7 @@ func KubePriorityClassV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -30791,7 +30791,7 @@ func KubePriorityClassV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityClassV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -30998,7 +30998,7 @@ func NewKubePriorityLevelConfigurationListV1Alpha1(scope constructs.Construct, i
 	j := jsiiProxy_KubePriorityLevelConfigurationListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -31011,7 +31011,7 @@ func NewKubePriorityLevelConfigurationListV1Alpha1_Override(k KubePriorityLevelC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -31027,7 +31027,7 @@ func KubePriorityLevelConfigurationListV1Alpha1_IsConstruct(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -31047,7 +31047,7 @@ func KubePriorityLevelConfigurationListV1Alpha1_Of(c constructs.IConstruct) cdk8
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -31242,7 +31242,7 @@ func NewKubePriorityLevelConfigurationV1Alpha1(scope constructs.Construct, id *s
 	j := jsiiProxy_KubePriorityLevelConfigurationV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -31255,7 +31255,7 @@ func NewKubePriorityLevelConfigurationV1Alpha1_Override(k KubePriorityLevelConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -31271,7 +31271,7 @@ func KubePriorityLevelConfigurationV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -31291,7 +31291,7 @@ func KubePriorityLevelConfigurationV1Alpha1_Of(c constructs.IConstruct) cdk8s.Ap
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubePriorityLevelConfigurationV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubePriorityLevelConfigurationV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -31488,7 +31488,7 @@ func NewKubeReplicaSet(scope constructs.Construct, id *string, props *KubeReplic
 	j := jsiiProxy_KubeReplicaSet{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSet",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -31501,7 +31501,7 @@ func NewKubeReplicaSet_Override(k KubeReplicaSet, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSet",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -31517,7 +31517,7 @@ func KubeReplicaSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -31537,7 +31537,7 @@ func KubeReplicaSet_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSet",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -31722,7 +31722,7 @@ func NewKubeReplicaSetList(scope constructs.Construct, id *string, props *KubeRe
 	j := jsiiProxy_KubeReplicaSetList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -31735,7 +31735,7 @@ func NewKubeReplicaSetList_Override(k KubeReplicaSetList, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -31751,7 +31751,7 @@ func KubeReplicaSetList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -31771,7 +31771,7 @@ func KubeReplicaSetList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -31968,7 +31968,7 @@ func NewKubeReplicaSetListV1Beta1(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeReplicaSetListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -31981,7 +31981,7 @@ func NewKubeReplicaSetListV1Beta1_Override(k KubeReplicaSetListV1Beta1, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -31997,7 +31997,7 @@ func KubeReplicaSetListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -32017,7 +32017,7 @@ func KubeReplicaSetListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -32214,7 +32214,7 @@ func NewKubeReplicaSetListV1Beta2(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeReplicaSetListV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -32227,7 +32227,7 @@ func NewKubeReplicaSetListV1Beta2_Override(k KubeReplicaSetListV1Beta2, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -32243,7 +32243,7 @@ func KubeReplicaSetListV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -32263,7 +32263,7 @@ func KubeReplicaSetListV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetListV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -32474,7 +32474,7 @@ func NewKubeReplicaSetV1Beta1(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeReplicaSetV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -32487,7 +32487,7 @@ func NewKubeReplicaSetV1Beta1_Override(k KubeReplicaSetV1Beta1, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -32503,7 +32503,7 @@ func KubeReplicaSetV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -32523,7 +32523,7 @@ func KubeReplicaSetV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -32724,7 +32724,7 @@ func NewKubeReplicaSetV1Beta2(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeReplicaSetV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -32737,7 +32737,7 @@ func NewKubeReplicaSetV1Beta2_Override(k KubeReplicaSetV1Beta2, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -32753,7 +32753,7 @@ func KubeReplicaSetV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -32773,7 +32773,7 @@ func KubeReplicaSetV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicaSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicaSetV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -32972,7 +32972,7 @@ func NewKubeReplicationController(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeReplicationController{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationController",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -32985,7 +32985,7 @@ func NewKubeReplicationController_Override(k KubeReplicationController, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationController",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -33001,7 +33001,7 @@ func KubeReplicationController_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationController",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -33021,7 +33021,7 @@ func KubeReplicationController_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationController",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -33206,7 +33206,7 @@ func NewKubeReplicationControllerList(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubeReplicationControllerList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationControllerList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -33219,7 +33219,7 @@ func NewKubeReplicationControllerList_Override(k KubeReplicationControllerList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationControllerList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -33235,7 +33235,7 @@ func KubeReplicationControllerList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationControllerList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -33255,7 +33255,7 @@ func KubeReplicationControllerList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeReplicationControllerList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -33464,7 +33464,7 @@ func NewKubeResourceQuota(scope constructs.Construct, id *string, props *KubeRes
 	j := jsiiProxy_KubeResourceQuota{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuota",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -33477,7 +33477,7 @@ func NewKubeResourceQuota_Override(k KubeResourceQuota, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuota",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -33493,7 +33493,7 @@ func KubeResourceQuota_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuota",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -33513,7 +33513,7 @@ func KubeResourceQuota_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuota",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -33698,7 +33698,7 @@ func NewKubeResourceQuotaList(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeResourceQuotaList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuotaList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -33711,7 +33711,7 @@ func NewKubeResourceQuotaList_Override(k KubeResourceQuotaList, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuotaList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -33727,7 +33727,7 @@ func KubeResourceQuotaList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuotaList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -33747,7 +33747,7 @@ func KubeResourceQuotaList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeResourceQuotaList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -33956,7 +33956,7 @@ func NewKubeRole(scope constructs.Construct, id *string, props *KubeRoleProps) K
 	j := jsiiProxy_KubeRole{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRole",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -33969,7 +33969,7 @@ func NewKubeRole_Override(k KubeRole, scope constructs.Construct, id *string, pr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRole",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -33985,7 +33985,7 @@ func KubeRole_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRole",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -34005,7 +34005,7 @@ func KubeRole_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRole",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRole",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -34192,7 +34192,7 @@ func NewKubeRoleBinding(scope constructs.Construct, id *string, props *KubeRoleB
 	j := jsiiProxy_KubeRoleBinding{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBinding",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -34205,7 +34205,7 @@ func NewKubeRoleBinding_Override(k KubeRoleBinding, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBinding",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -34221,7 +34221,7 @@ func KubeRoleBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -34241,7 +34241,7 @@ func KubeRoleBinding_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBinding",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -34426,7 +34426,7 @@ func NewKubeRoleBindingList(scope constructs.Construct, id *string, props *KubeR
 	j := jsiiProxy_KubeRoleBindingList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -34439,7 +34439,7 @@ func NewKubeRoleBindingList_Override(k KubeRoleBindingList, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -34455,7 +34455,7 @@ func KubeRoleBindingList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -34475,7 +34475,7 @@ func KubeRoleBindingList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -34668,7 +34668,7 @@ func NewKubeRoleBindingListV1Alpha1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeRoleBindingListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -34681,7 +34681,7 @@ func NewKubeRoleBindingListV1Alpha1_Override(k KubeRoleBindingListV1Alpha1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -34697,7 +34697,7 @@ func KubeRoleBindingListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -34717,7 +34717,7 @@ func KubeRoleBindingListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -34910,7 +34910,7 @@ func NewKubeRoleBindingListV1Beta1(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeRoleBindingListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -34923,7 +34923,7 @@ func NewKubeRoleBindingListV1Beta1_Override(k KubeRoleBindingListV1Beta1, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -34939,7 +34939,7 @@ func KubeRoleBindingListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -34959,7 +34959,7 @@ func KubeRoleBindingListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -35168,7 +35168,7 @@ func NewKubeRoleBindingV1Alpha1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeRoleBindingV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -35181,7 +35181,7 @@ func NewKubeRoleBindingV1Alpha1_Override(k KubeRoleBindingV1Alpha1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -35197,7 +35197,7 @@ func KubeRoleBindingV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -35217,7 +35217,7 @@ func KubeRoleBindingV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -35418,7 +35418,7 @@ func NewKubeRoleBindingV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeRoleBindingV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -35431,7 +35431,7 @@ func NewKubeRoleBindingV1Beta1_Override(k KubeRoleBindingV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -35447,7 +35447,7 @@ func KubeRoleBindingV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -35467,7 +35467,7 @@ func KubeRoleBindingV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleBindingV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -35666,7 +35666,7 @@ func NewKubeRoleList(scope constructs.Construct, id *string, props *KubeRoleList
 	j := jsiiProxy_KubeRoleList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -35679,7 +35679,7 @@ func NewKubeRoleList_Override(k KubeRoleList, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -35695,7 +35695,7 @@ func KubeRoleList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -35715,7 +35715,7 @@ func KubeRoleList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -35910,7 +35910,7 @@ func NewKubeRoleListV1Alpha1(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeRoleListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -35923,7 +35923,7 @@ func NewKubeRoleListV1Alpha1_Override(k KubeRoleListV1Alpha1, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -35939,7 +35939,7 @@ func KubeRoleListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -35959,7 +35959,7 @@ func KubeRoleListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -36154,7 +36154,7 @@ func NewKubeRoleListV1Beta1(scope constructs.Construct, id *string, props *KubeR
 	j := jsiiProxy_KubeRoleListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -36167,7 +36167,7 @@ func NewKubeRoleListV1Beta1_Override(k KubeRoleListV1Beta1, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -36183,7 +36183,7 @@ func KubeRoleListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -36203,7 +36203,7 @@ func KubeRoleListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -36406,7 +36406,7 @@ func NewKubeRoleV1Alpha1(scope constructs.Construct, id *string, props *KubeRole
 	j := jsiiProxy_KubeRoleV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -36419,7 +36419,7 @@ func NewKubeRoleV1Alpha1_Override(k KubeRoleV1Alpha1, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -36435,7 +36435,7 @@ func KubeRoleV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -36455,7 +36455,7 @@ func KubeRoleV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -36652,7 +36652,7 @@ func NewKubeRoleV1Beta1(scope constructs.Construct, id *string, props *KubeRoleV
 	j := jsiiProxy_KubeRoleV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -36665,7 +36665,7 @@ func NewKubeRoleV1Beta1_Override(k KubeRoleV1Beta1, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -36681,7 +36681,7 @@ func KubeRoleV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -36701,7 +36701,7 @@ func KubeRoleV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRoleV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -36896,7 +36896,7 @@ func NewKubeRuntimeClassListV1Alpha1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeRuntimeClassListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -36909,7 +36909,7 @@ func NewKubeRuntimeClassListV1Alpha1_Override(k KubeRuntimeClassListV1Alpha1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -36925,7 +36925,7 @@ func KubeRuntimeClassListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -36945,7 +36945,7 @@ func KubeRuntimeClassListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -37140,7 +37140,7 @@ func NewKubeRuntimeClassListV1Beta1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeRuntimeClassListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -37153,7 +37153,7 @@ func NewKubeRuntimeClassListV1Beta1_Override(k KubeRuntimeClassListV1Beta1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -37169,7 +37169,7 @@ func KubeRuntimeClassListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -37189,7 +37189,7 @@ func KubeRuntimeClassListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -37386,7 +37386,7 @@ func NewKubeRuntimeClassV1Alpha1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeRuntimeClassV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -37399,7 +37399,7 @@ func NewKubeRuntimeClassV1Alpha1_Override(k KubeRuntimeClassV1Alpha1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -37415,7 +37415,7 @@ func KubeRuntimeClassV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -37435,7 +37435,7 @@ func KubeRuntimeClassV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -37632,7 +37632,7 @@ func NewKubeRuntimeClassV1Beta1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeRuntimeClassV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -37645,7 +37645,7 @@ func NewKubeRuntimeClassV1Beta1_Override(k KubeRuntimeClassV1Beta1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -37661,7 +37661,7 @@ func KubeRuntimeClassV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -37681,7 +37681,7 @@ func KubeRuntimeClassV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeRuntimeClassV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -37886,7 +37886,7 @@ func NewKubeScale(scope constructs.Construct, id *string, props *KubeScaleProps)
 	j := jsiiProxy_KubeScale{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScale",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScale",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -37899,7 +37899,7 @@ func NewKubeScale_Override(k KubeScale, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScale",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScale",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -37915,7 +37915,7 @@ func KubeScale_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScale",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScale",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -37935,7 +37935,7 @@ func KubeScale_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScale",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScale",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -38132,7 +38132,7 @@ func NewKubeScaleV1Beta1(scope constructs.Construct, id *string, props *KubeScal
 	j := jsiiProxy_KubeScaleV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -38145,7 +38145,7 @@ func NewKubeScaleV1Beta1_Override(k KubeScaleV1Beta1, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -38161,7 +38161,7 @@ func KubeScaleV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -38181,7 +38181,7 @@ func KubeScaleV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -38378,7 +38378,7 @@ func NewKubeScaleV1Beta2(scope constructs.Construct, id *string, props *KubeScal
 	j := jsiiProxy_KubeScaleV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -38391,7 +38391,7 @@ func NewKubeScaleV1Beta2_Override(k KubeScaleV1Beta2, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -38407,7 +38407,7 @@ func KubeScaleV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -38427,7 +38427,7 @@ func KubeScaleV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeScaleV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeScaleV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -38626,7 +38626,7 @@ func NewKubeSecret(scope constructs.Construct, id *string, props *KubeSecretProp
 	j := jsiiProxy_KubeSecret{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecret",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -38639,7 +38639,7 @@ func NewKubeSecret_Override(k KubeSecret, scope constructs.Construct, id *string
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecret",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -38655,7 +38655,7 @@ func KubeSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -38675,7 +38675,7 @@ func KubeSecret_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecret",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -38860,7 +38860,7 @@ func NewKubeSecretList(scope constructs.Construct, id *string, props *KubeSecret
 	j := jsiiProxy_KubeSecretList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecretList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -38873,7 +38873,7 @@ func NewKubeSecretList_Override(k KubeSecretList, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecretList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -38889,7 +38889,7 @@ func KubeSecretList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecretList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -38909,7 +38909,7 @@ func KubeSecretList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSecretList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -39128,7 +39128,7 @@ func NewKubeSelfSubjectAccessReview(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeSelfSubjectAccessReview{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -39141,7 +39141,7 @@ func NewKubeSelfSubjectAccessReview_Override(k KubeSelfSubjectAccessReview, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -39157,7 +39157,7 @@ func KubeSelfSubjectAccessReview_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReview",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -39177,7 +39177,7 @@ func KubeSelfSubjectAccessReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -39375,7 +39375,7 @@ func NewKubeSelfSubjectAccessReviewV1Beta1(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeSelfSubjectAccessReviewV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -39388,7 +39388,7 @@ func NewKubeSelfSubjectAccessReviewV1Beta1_Override(k KubeSelfSubjectAccessRevie
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -39404,7 +39404,7 @@ func KubeSelfSubjectAccessReviewV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -39424,7 +39424,7 @@ func KubeSelfSubjectAccessReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -39622,7 +39622,7 @@ func NewKubeSelfSubjectRulesReview(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeSelfSubjectRulesReview{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -39635,7 +39635,7 @@ func NewKubeSelfSubjectRulesReview_Override(k KubeSelfSubjectRulesReview, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -39651,7 +39651,7 @@ func KubeSelfSubjectRulesReview_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReview",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -39671,7 +39671,7 @@ func KubeSelfSubjectRulesReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -39867,7 +39867,7 @@ func NewKubeSelfSubjectRulesReviewV1Beta1(scope constructs.Construct, id *string
 	j := jsiiProxy_KubeSelfSubjectRulesReviewV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -39880,7 +39880,7 @@ func NewKubeSelfSubjectRulesReviewV1Beta1_Override(k KubeSelfSubjectRulesReviewV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -39896,7 +39896,7 @@ func KubeSelfSubjectRulesReviewV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -39916,7 +39916,7 @@ func KubeSelfSubjectRulesReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObje
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -40110,7 +40110,7 @@ func NewKubeService(scope constructs.Construct, id *string, props *KubeServicePr
 	j := jsiiProxy_KubeService{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeService",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -40123,7 +40123,7 @@ func NewKubeService_Override(k KubeService, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeService",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -40139,7 +40139,7 @@ func KubeService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -40159,7 +40159,7 @@ func KubeService_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeService",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeService",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -40344,7 +40344,7 @@ func NewKubeServiceAccount(scope constructs.Construct, id *string, props *KubeSe
 	j := jsiiProxy_KubeServiceAccount{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccount",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -40357,7 +40357,7 @@ func NewKubeServiceAccount_Override(k KubeServiceAccount, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccount",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -40373,7 +40373,7 @@ func KubeServiceAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -40393,7 +40393,7 @@ func KubeServiceAccount_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccount",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -40578,7 +40578,7 @@ func NewKubeServiceAccountList(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeServiceAccountList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccountList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -40591,7 +40591,7 @@ func NewKubeServiceAccountList_Override(k KubeServiceAccountList, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccountList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -40607,7 +40607,7 @@ func KubeServiceAccountList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccountList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -40627,7 +40627,7 @@ func KubeServiceAccountList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceAccountList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -40844,7 +40844,7 @@ func NewKubeServiceList(scope constructs.Construct, id *string, props *KubeServi
 	j := jsiiProxy_KubeServiceList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -40857,7 +40857,7 @@ func NewKubeServiceList_Override(k KubeServiceList, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -40873,7 +40873,7 @@ func KubeServiceList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -40893,7 +40893,7 @@ func KubeServiceList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeServiceList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -41105,7 +41105,7 @@ func NewKubeStatefulSet(scope constructs.Construct, id *string, props *KubeState
 	j := jsiiProxy_KubeStatefulSet{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSet",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -41118,7 +41118,7 @@ func NewKubeStatefulSet_Override(k KubeStatefulSet, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSet",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -41134,7 +41134,7 @@ func KubeStatefulSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -41154,7 +41154,7 @@ func KubeStatefulSet_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSet",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -41339,7 +41339,7 @@ func NewKubeStatefulSetList(scope constructs.Construct, id *string, props *KubeS
 	j := jsiiProxy_KubeStatefulSetList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -41352,7 +41352,7 @@ func NewKubeStatefulSetList_Override(k KubeStatefulSetList, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -41368,7 +41368,7 @@ func KubeStatefulSetList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -41388,7 +41388,7 @@ func KubeStatefulSetList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -41579,7 +41579,7 @@ func NewKubeStatefulSetListV1Beta1(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeStatefulSetListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -41592,7 +41592,7 @@ func NewKubeStatefulSetListV1Beta1_Override(k KubeStatefulSetListV1Beta1, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -41608,7 +41608,7 @@ func KubeStatefulSetListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -41628,7 +41628,7 @@ func KubeStatefulSetListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -41819,7 +41819,7 @@ func NewKubeStatefulSetListV1Beta2(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeStatefulSetListV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -41832,7 +41832,7 @@ func NewKubeStatefulSetListV1Beta2_Override(k KubeStatefulSetListV1Beta2, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -41848,7 +41848,7 @@ func KubeStatefulSetListV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -41868,7 +41868,7 @@ func KubeStatefulSetListV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetListV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetListV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -42076,7 +42076,7 @@ func NewKubeStatefulSetV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeStatefulSetV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -42089,7 +42089,7 @@ func NewKubeStatefulSetV1Beta1_Override(k KubeStatefulSetV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -42105,7 +42105,7 @@ func KubeStatefulSetV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -42125,7 +42125,7 @@ func KubeStatefulSetV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -42327,7 +42327,7 @@ func NewKubeStatefulSetV1Beta2(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeStatefulSetV1Beta2{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -42340,7 +42340,7 @@ func NewKubeStatefulSetV1Beta2_Override(k KubeStatefulSetV1Beta2, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -42356,7 +42356,7 @@ func KubeStatefulSetV1Beta2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -42376,7 +42376,7 @@ func KubeStatefulSetV1Beta2_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatefulSetV1Beta2",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatefulSetV1Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -42573,7 +42573,7 @@ func NewKubeStatus(scope constructs.Construct, id *string, props *KubeStatusProp
 	j := jsiiProxy_KubeStatus{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatus",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -42586,7 +42586,7 @@ func NewKubeStatus_Override(k KubeStatus, scope constructs.Construct, id *string
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatus",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -42602,7 +42602,7 @@ func KubeStatus_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatus",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -42622,7 +42622,7 @@ func KubeStatus_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStatus",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -42829,7 +42829,7 @@ func NewKubeStorageClass(scope constructs.Construct, id *string, props *KubeStor
 	j := jsiiProxy_KubeStorageClass{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClass",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -42842,7 +42842,7 @@ func NewKubeStorageClass_Override(k KubeStorageClass, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClass",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -42858,7 +42858,7 @@ func KubeStorageClass_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClass",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -42878,7 +42878,7 @@ func KubeStorageClass_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClass",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -43063,7 +43063,7 @@ func NewKubeStorageClassList(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeStorageClassList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -43076,7 +43076,7 @@ func NewKubeStorageClassList_Override(k KubeStorageClassList, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -43092,7 +43092,7 @@ func KubeStorageClassList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -43112,7 +43112,7 @@ func KubeStorageClassList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -43305,7 +43305,7 @@ func NewKubeStorageClassListV1Beta1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeStorageClassListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -43318,7 +43318,7 @@ func NewKubeStorageClassListV1Beta1_Override(k KubeStorageClassListV1Beta1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -43334,7 +43334,7 @@ func KubeStorageClassListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -43354,7 +43354,7 @@ func KubeStorageClassListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -43579,7 +43579,7 @@ func NewKubeStorageClassV1Beta1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeStorageClassV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -43592,7 +43592,7 @@ func NewKubeStorageClassV1Beta1_Override(k KubeStorageClassV1Beta1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -43608,7 +43608,7 @@ func KubeStorageClassV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -43628,7 +43628,7 @@ func KubeStorageClassV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeStorageClassV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -43843,7 +43843,7 @@ func NewKubeSubjectAccessReview(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeSubjectAccessReview{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -43856,7 +43856,7 @@ func NewKubeSubjectAccessReview_Override(k KubeSubjectAccessReview, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -43872,7 +43872,7 @@ func KubeSubjectAccessReview_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReview",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -43892,7 +43892,7 @@ func KubeSubjectAccessReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -44084,7 +44084,7 @@ func NewKubeSubjectAccessReviewV1Beta1(scope constructs.Construct, id *string, p
 	j := jsiiProxy_KubeSubjectAccessReviewV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -44097,7 +44097,7 @@ func NewKubeSubjectAccessReviewV1Beta1_Override(k KubeSubjectAccessReviewV1Beta1
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -44113,7 +44113,7 @@ func KubeSubjectAccessReviewV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReviewV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -44133,7 +44133,7 @@ func KubeSubjectAccessReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject 
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeSubjectAccessReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -44325,7 +44325,7 @@ func NewKubeTokenRequest(scope constructs.Construct, id *string, props *KubeToke
 	j := jsiiProxy_KubeTokenRequest{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenRequest",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -44338,7 +44338,7 @@ func NewKubeTokenRequest_Override(k KubeTokenRequest, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenRequest",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -44354,7 +44354,7 @@ func KubeTokenRequest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenRequest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -44374,7 +44374,7 @@ func KubeTokenRequest_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenRequest",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -44567,7 +44567,7 @@ func NewKubeTokenReview(scope constructs.Construct, id *string, props *KubeToken
 	j := jsiiProxy_KubeTokenReview{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -44580,7 +44580,7 @@ func NewKubeTokenReview_Override(k KubeTokenReview, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -44596,7 +44596,7 @@ func KubeTokenReview_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReview",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -44616,7 +44616,7 @@ func KubeTokenReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -44812,7 +44812,7 @@ func NewKubeTokenReviewV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeTokenReviewV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -44825,7 +44825,7 @@ func NewKubeTokenReviewV1Beta1_Override(k KubeTokenReviewV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -44841,7 +44841,7 @@ func KubeTokenReviewV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReviewV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -44861,7 +44861,7 @@ func KubeTokenReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeTokenReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -45055,7 +45055,7 @@ func NewKubeValidatingWebhookConfiguration(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeValidatingWebhookConfiguration{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfiguration",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -45068,7 +45068,7 @@ func NewKubeValidatingWebhookConfiguration_Override(k KubeValidatingWebhookConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfiguration",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -45084,7 +45084,7 @@ func KubeValidatingWebhookConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -45104,7 +45104,7 @@ func KubeValidatingWebhookConfiguration_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfiguration",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -45289,7 +45289,7 @@ func NewKubeValidatingWebhookConfigurationList(scope constructs.Construct, id *s
 	j := jsiiProxy_KubeValidatingWebhookConfigurationList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -45302,7 +45302,7 @@ func NewKubeValidatingWebhookConfigurationList_Override(k KubeValidatingWebhookC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -45318,7 +45318,7 @@ func KubeValidatingWebhookConfigurationList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -45338,7 +45338,7 @@ func KubeValidatingWebhookConfigurationList_Of(c constructs.IConstruct) cdk8s.Ap
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -45533,7 +45533,7 @@ func NewKubeValidatingWebhookConfigurationListV1Beta1(scope constructs.Construct
 	j := jsiiProxy_KubeValidatingWebhookConfigurationListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -45546,7 +45546,7 @@ func NewKubeValidatingWebhookConfigurationListV1Beta1_Override(k KubeValidatingW
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -45562,7 +45562,7 @@ func KubeValidatingWebhookConfigurationListV1Beta1_IsConstruct(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -45582,7 +45582,7 @@ func KubeValidatingWebhookConfigurationListV1Beta1_Of(c constructs.IConstruct) c
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -45789,7 +45789,7 @@ func NewKubeValidatingWebhookConfigurationV1Beta1(scope constructs.Construct, id
 	j := jsiiProxy_KubeValidatingWebhookConfigurationV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -45802,7 +45802,7 @@ func NewKubeValidatingWebhookConfigurationV1Beta1_Override(k KubeValidatingWebho
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -45818,7 +45818,7 @@ func KubeValidatingWebhookConfigurationV1Beta1_IsConstruct(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -45838,7 +45838,7 @@ func KubeValidatingWebhookConfigurationV1Beta1_Of(c constructs.IConstruct) cdk8s
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -46037,7 +46037,7 @@ func NewKubeVolumeAttachment(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeVolumeAttachment{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachment",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -46050,7 +46050,7 @@ func NewKubeVolumeAttachment_Override(k KubeVolumeAttachment, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachment",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -46066,7 +46066,7 @@ func KubeVolumeAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -46086,7 +46086,7 @@ func KubeVolumeAttachment_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachment",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -46271,7 +46271,7 @@ func NewKubeVolumeAttachmentList(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeVolumeAttachmentList{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -46284,7 +46284,7 @@ func NewKubeVolumeAttachmentList_Override(k KubeVolumeAttachmentList, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -46300,7 +46300,7 @@ func KubeVolumeAttachmentList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -46320,7 +46320,7 @@ func KubeVolumeAttachmentList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -46513,7 +46513,7 @@ func NewKubeVolumeAttachmentListV1Alpha1(scope constructs.Construct, id *string,
 	j := jsiiProxy_KubeVolumeAttachmentListV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -46526,7 +46526,7 @@ func NewKubeVolumeAttachmentListV1Alpha1_Override(k KubeVolumeAttachmentListV1Al
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -46542,7 +46542,7 @@ func KubeVolumeAttachmentListV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -46562,7 +46562,7 @@ func KubeVolumeAttachmentListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObjec
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -46755,7 +46755,7 @@ func NewKubeVolumeAttachmentListV1Beta1(scope constructs.Construct, id *string, 
 	j := jsiiProxy_KubeVolumeAttachmentListV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -46768,7 +46768,7 @@ func NewKubeVolumeAttachmentListV1Beta1_Override(k KubeVolumeAttachmentListV1Bet
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -46784,7 +46784,7 @@ func KubeVolumeAttachmentListV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -46804,7 +46804,7 @@ func KubeVolumeAttachmentListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -47013,7 +47013,7 @@ func NewKubeVolumeAttachmentV1Alpha1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeVolumeAttachmentV1Alpha1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -47026,7 +47026,7 @@ func NewKubeVolumeAttachmentV1Alpha1_Override(k KubeVolumeAttachmentV1Alpha1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -47042,7 +47042,7 @@ func KubeVolumeAttachmentV1Alpha1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Alpha1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -47062,7 +47062,7 @@ func KubeVolumeAttachmentV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -47263,7 +47263,7 @@ func NewKubeVolumeAttachmentV1Beta1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeVolumeAttachmentV1Beta1{}
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -47276,7 +47276,7 @@ func NewKubeVolumeAttachmentV1Beta1_Override(k KubeVolumeAttachmentV1Beta1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -47292,7 +47292,7 @@ func KubeVolumeAttachmentV1Beta1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Beta1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -47312,7 +47312,7 @@ func KubeVolumeAttachmentV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.KubeVolumeAttachmentV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -48743,7 +48743,7 @@ func Quantity_FromNumber(value *float64) Quantity {
 	var returns Quantity
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Quantity",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Quantity",
 		"fromNumber",
 		[]interface{}{value},
 		&returns,
@@ -48758,7 +48758,7 @@ func Quantity_FromString(value *string) Quantity {
 	var returns Quantity
 
 	_jsii_.StaticInvoke(
-		"@opencdk8s/cdk8s-argoworkflow-resources.k8s.Quantity",
+		"@opencdk8s/cdk8s-argoworkflow.k8s.Quantity",
 		"fromString",
 		[]interface{}{value},
 		&returns,
